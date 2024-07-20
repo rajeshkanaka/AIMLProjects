@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- User -->
+  <circle cx="100" cy="300" r="50" fill="#FFD700"/>
+  <text x="100" y="305" text-anchor="middle" font-size="14">User</text>
+  
+  <!-- Chatbot Interface -->
+  <rect x="250" y="250" width="120" height="100" rx="10" fill="#90EE90"/>
+  <text x="310" y="305" text-anchor="middle" font-size="14">Chatbot</text>
+  <text x="310" y="325" text-anchor="middle" font-size="14">Interface</text>
+  
+  <!-- NLP Processing -->
+  <rect x="450" y="150" width="120" height="100" rx="10" fill="#ADD8E6"/>
+  <text x="510" y="205" text-anchor="middle" font-size="14">NLP</text>
+  <text x="510" y="225" text-anchor="middle" font-size="14">Processing</text>
+  
+  <!-- Query Generation -->
+  <rect x="450" y="350" width="120" height="100" rx="10" fill="#FFA07A"/>
+  <text x="510" y="405" text-anchor="middle" font-size="14">Query</text>
+  <text x="510" y="425" text-anchor="middle" font-size="14">Generation</text>
+  
+  <!-- PostgreSQL Database -->
+  <rect x="650" y="250" width="120" height="100" rx="10" fill="#DDA0DD"/>
+  <text x="710" y="305" text-anchor="middle" font-size="14">PostgreSQL</text>
+  <text x="710" y="325" text-anchor="middle" font-size="14">Database</text>
+  
+  <!-- Arrows -->
+  <!-- User to Chatbot -->
+  <line x1="150" y1="300" x2="250" y2="300" stroke="black" stroke-width="2"/>
+  <polygon points="245,295 255,300 245,305" fill="black"/>
+  
+  <!-- Chatbot to NLP -->
+  <line x1="370" y1="280" x2="450" y2="220" stroke="black" stroke-width="2"/>
+  <polygon points="445,225 455,215 455,225" fill="black"/>
+  
+  <!-- NLP to Query Generation -->
+  <line x1="510" y1="250" x2="510" y2="350" stroke="black" stroke-width="2"/>
+  <polygon points="505,345 510,355 515,345" fill="black"/>
+  
+  <!-- Query Generation to Database -->
+  <line x1="570" y1="400" x2="650" y2="320" stroke="black" stroke-width="2"/>
+  <polygon points="645,325 655,315 655,325" fill="black"/>
+  
+  <!-- Database to Query Generation -->
+  <line x1="650" y1="280" x2="570" y2="380" stroke="black" stroke-width="2"/>
+  <polygon points="565,375 575,385 575,375" fill="black"/>
+  
+  <!-- Query Generation to Chatbot -->
+  <line x1="450" y1="380" x2="370" y2="320" stroke="black" stroke-width="2"/>
+  <polygon points="375,315 365,325 365,315" fill="black"/>
+  
+  <!-- Chatbot to User -->
+  <line x1="250" y1="320" x2="150" y2="320" stroke="black" stroke-width="2"/>
+  <polygon points="155,315 145,320 155,325" fill="black"/>
+</svg>
