@@ -1,0 +1,1505 @@
+{
+  "task": "us_property_market_qa",
+  "examples": [
+    {
+      "question": "what is waivit?",
+      "answer": "waivit is a platform that facilitates the ordering and management of property inspections valuations and other real estate services.",
+      "original_question": "What is Waivit?",
+      "original_answer": "Waivit is a platform that facilitates the ordering and management of property inspections, valuations, and other real estate services."
+    },
+    {
+      "question": "what is autoval?",
+      "answer": "autoval is a feature within the waivit platform that provides automated property valuations using avm automated valuation model and fastr calculations. it offers a quick and costeffective way to estimate property value.",
+      "original_question": "What is AutoVal?",
+      "original_answer": "AutoVal is a feature within the Waivit platform that provides automated property valuations using AVM (Automated Valuation Model) and FASTR calculations. It offers a quick and cost-effective way to estimate property value."
+    },
+    {
+      "question": "what are the benefits of using waivit?",
+      "answer": "waivit offers streamlined inspection management improved efficiency and accuracy enhanced collaboration between inspectors and clients and access to visual valuation data through avv inspections.",
+      "original_question": "What are the benefits of using Waivit?",
+      "original_answer": "Waivit offers streamlined inspection management, improved efficiency and accuracy, enhanced collaboration between inspectors and clients, and access to visual valuation data through AVV inspections."
+    },
+    {
+      "question": "what are the different autoval options available?",
+      "answer": "there are four autoval options autoval basic valuation autoval includes inspection with avv autoval with review adds appraiser review and autoval with review combines avv and appraiser review.",
+      "original_question": "What are the different AutoVal options available?",
+      "original_answer": "There are four AutoVal options: AutoVal (basic valuation), AutoVal+ (includes inspection with AVV), AutoVal with Review (adds appraiser review), and AutoVal+ with Review (combines AVV and appraiser review)."
+    },
+    {
+      "question": "how does autoval work?",
+      "answer": "autoval uses an avm to generate an initial property value estimate. then fastr calculations validate the avm value based on comparable properties. you can choose to add an inspection with avv or an appraiser review for more detailed validation.",
+      "original_question": "How does AutoVal work?",
+      "original_answer": "AutoVal uses an AVM to generate an initial property value estimate. Then, FASTR calculations validate the AVM value based on comparable properties.  You can choose to add an inspection with AVV or an appraiser review for more detailed validation."
+    },
+    {
+      "question": "what is an avm?",
+      "answer": "avm stands for automated valuation model. its a statistical model that uses property data and market trends to estimate a propertys value.",
+      "original_question": "What is an AVM?",
+      "original_answer": "AVM stands for Automated Valuation Model. It's a statistical model that uses property data and market trends to estimate a property's value."
+    },
+    {
+      "question": "what is fastr?",
+      "answer": "fastr is a valuation tool used in autoval to validate avm values by comparing the subject property with recent sales of similar properties comparables.",
+      "original_question": "What is FASTR?",
+      "original_answer": "FASTR is a valuation tool used in AutoVal to validate AVM values by comparing the subject property with recent sales of similar properties (comparables)."
+    },
+    {
+      "question": "what is avv?",
+      "answer": "avv stands for automated visual valuation. it uses photos taken during an inspection and ai to assess a propertys condition and provide insights into its value.",
+      "original_question": "What is AVV?",
+      "original_answer": "AVV stands for Automated Visual Valuation. It uses photos taken during an inspection and AI to assess a property's condition and provide insights into its value."
+    },
+    {
+      "question": "when should i use autoval?",
+      "answer": "autoval is ideal for quick property value estimates especially when a fast turnaround is needed. its also suitable for situations where a lowercost valuation is required.",
+      "original_question": "When should I use AutoVal?",
+      "original_answer": "AutoVal is ideal for quick property value estimates, especially when a fast turnaround is needed. It's also suitable for situations where a lower-cost valuation is required."
+    },
+    {
+      "question": "how do i create an inspection in waivit?",
+      "answer": "you can create an inspection by selecting create inspection in waivit and providing property details inspection type and the assigned inspector. inspections can also be created directly from autoval orders.",
+      "original_question": "How do I create an inspection in Waivit?",
+      "original_answer": "You can create an inspection by selecting 'Create Inspection' in Waivit and providing property details, inspection type, and the assigned inspector. Inspections can also be created directly from AutoVal orders."
+    },
+    {
+      "question": "how do i assign an inspector to an inspection?",
+      "answer": "choose an inspector from the list or create a new inspector profile in waivit. the platform provides tools to manage and track inspector assignments.",
+      "original_question": "How do I assign an inspector to an inspection?",
+      "original_answer": "Choose an inspector from the list or create a new inspector profile in Waivit. The platform provides tools to manage and track inspector assignments."
+    },
+    {
+      "question": "what happens after an inspection is completed?",
+      "answer": "the inspector uploads photos and submits a report for review. you can review the inspection approve it and optionally generate an avv report using foxyai.",
+      "original_question": "What happens after an inspection is completed?",
+      "original_answer": "The inspector uploads photos and submits a report for review. You can review the inspection, approve it, and optionally generate an AVV report using FoxyAI."
+    },
+    {
+      "question": "what is foxyai?",
+      "answer": "foxyai is a service integrated with waivit that generates automated visual valuation avv reports from inspection photos offering visual insights into property conditions.",
+      "original_question": "What is FoxyAI?",
+      "original_answer": "FoxyAI is a service integrated with Waivit that generates Automated Visual Valuation (AVV) reports from inspection photos, offering visual insights into property conditions."
+    },
+    {
+      "question": "how do i approve or reject an inspection in waivit?",
+      "answer": "you can review a completed inspection and choose to approve or reject it. approving signifies acceptance while rejecting requires the inspector to address issues.",
+      "original_question": "How do I approve or reject an inspection in Waivit?",
+      "original_answer": "You can review a completed inspection and choose to approve or reject it. Approving signifies acceptance, while rejecting requires the inspector to address issues."
+    },
+    {
+      "question": "what happens when an inspection is approved?",
+      "answer": "the approved inspection is automatically merged with the associated autoval order updating it with inspection details and potentially incorporating avv data.",
+      "original_question": "What happens when an inspection is approved?",
+      "original_answer": "The approved inspection is automatically merged with the associated AutoVal order, updating it with inspection details and potentially incorporating AVV data."
+    },
+    {
+      "question": "can i download the inspection report?",
+      "answer": "yes you can download a detailed pdf report of the inspection findings and photos.",
+      "original_question": "Can I download the inspection report?",
+      "original_answer": "Yes, you can download a detailed PDF report of the inspection findings and photos."
+    },
+    {
+      "question": "how do i manage my organizations in waivit?",
+      "answer": "waivit lets you manage your organizations including adding members assigning roles and customizing settings for efficient collaboration and access control.",
+      "original_question": "How do I manage my organizations in Waivit?",
+      "original_answer": "Waivit lets you manage your organizations, including adding members, assigning roles, and customizing settings for efficient collaboration and access control."
+    },
+    {
+      "question": "what is the variance in autoval?",
+      "answer": "the variance refers to the difference between the avm value and the fastr value. a high variance indicates a potentially less reliable valuation.",
+      "original_question": "What is the 'variance' in AutoVal?",
+      "original_answer": "The variance refers to the difference between the AVM value and the FASTR value. A high variance indicates a potentially less reliable valuation."
+    },
+    {
+      "question": "what if the autoval variance is high?",
+      "answer": "if the difference between the avm and fastr values exceeds the configurable threshold youll receive a popup warning suggesting an upgrade to a human evaluation for a more accurate result.",
+      "original_question": "What if the AutoVal variance is high?",
+      "original_answer": "If the difference between the AVM and FASTR values exceeds the configurable threshold, you'll receive a pop-up warning suggesting an upgrade to a human evaluation for a more accurate result."
+    },
+    {
+      "question": "can i upgrade an autoval order?",
+      "answer": "yes you can upgrade an autoval order to a more comprehensive option such as autoval with review or autoval with review if you need additional validation or a more detailed evaluation.",
+      "original_question": "Can I upgrade an AutoVal order?",
+      "original_answer": "Yes, you can upgrade an AutoVal order to a more comprehensive option, such as AutoVal with Review or AutoVal+ with Review, if you need additional validation or a more detailed evaluation."
+    },
+    {
+      "question": "what happens when i upgrade to autoval?",
+      "answer": "upgrading to autoval automatically triggers an inspection with avv. an inspector will be assigned to the property and theyll provide photos and an avv report that further validates the propertys value.",
+      "original_question": "What happens when I upgrade to AutoVal+?",
+      "original_answer": "Upgrading to AutoVal+ automatically triggers an inspection with AVV. An inspector will be assigned to the property, and they'll provide photos and an AVV report that further validates the property's value."
+    },
+    {
+      "question": "whats the difference between autoval with review and autoval with review?",
+      "answer": "autoval with review provides an appraisal review while autoval with review combines the review with an inspection and avv offering the most comprehensive valuation approach.",
+      "original_question": "What's the difference between 'AutoVal with Review' and 'AutoVal+ with Review'?",
+      "original_answer": "'AutoVal with Review' provides an appraisal review, while 'AutoVal+ with Review' combines the review with an inspection and AVV, offering the most comprehensive valuation approach."
+    },
+    {
+      "question": "how do i set the variance threshold for autoval?",
+      "answer": "you can set the acceptable variance threshold for avm and fastr values at the organization level within the waivit platform. this allows you to customize the tolerance level for your valuations based on your specific needs.",
+      "original_question": "How do I set the variance threshold for AutoVal?",
+      "original_answer": "You can set the acceptable variance threshold for AVM and FASTR values at the organization level within the Waivit platform. This allows you to customize the tolerance level for your valuations based on your specific needs."
+    },
+    {
+      "question": "how do i find comparable properties comps using autoval?",
+      "answer": "autoval automatically searches for comps based on your data sources and criteria. you can also manually select and add comparables.",
+      "original_question": "How do I find comparable properties (comps) using AutoVal?",
+      "original_answer": "AutoVal automatically searches for comps based on your data sources and criteria. You can also manually select and add comparables."
+    },
+    {
+      "question": "can i use avv data to find comps?",
+      "answer": "yes you can use avv data from inspections to find comparable properties in waivit eval providing additional insights for your valuation.",
+      "original_question": "Can I use AVV data to find comps?",
+      "original_answer": "Yes, you can use AVV data from inspections to find comparable properties in Waivit Eval, providing additional insights for your valuation."
+    },
+    {
+      "question": "what are the audit events for autoval?",
+      "answer": "audit events track actions performed during the autoval process ordering completion inspections reviews upgrades for billing and analysis.",
+      "original_question": "What are the audit events for AutoVal?",
+      "original_answer": "Audit events track actions performed during the AutoVal process (ordering, completion, inspections, reviews, upgrades) for billing and analysis."
+    },
+    {
+      "question": "whats the difference between an inspection and a review in autoval?",
+      "answer": "an inspection provides visual valuation data photos avv report while a review involves a professional appraisers opinion on the propertys value.",
+      "original_question": "What's the difference between an inspection and a review in AutoVal?",
+      "original_answer": "An inspection provides visual valuation data (photos, AVV report), while a review involves a professional appraiser's opinion on the property's value."
+    },
+    {
+      "question": "how do i know if an inspection is required for my autoval order?",
+      "answer": "if you select the autoval or autoval with review option an inspection is automatically included. you can also choose to upgrade a basic autoval order to include an inspection.",
+      "original_question": "How do I know if an inspection is required for my AutoVal order?",
+      "original_answer": "If you select the 'AutoVal+' or 'AutoVal+ with Review' option, an inspection is automatically included. You can also choose to upgrade a basic AutoVal order to include an inspection."
+    },
+    {
+      "question": "can i see the avv report after the inspection?",
+      "answer": "yes after approval the avv report is merged with the autoval order allowing you to view the visual valuation data.",
+      "original_question": "Can I see the AVV report after the inspection?",
+      "original_answer": "Yes, after approval, the AVV report is merged with the AutoVal order, allowing you to view the visual valuation data."
+    },
+    {
+      "question": "what happens to the autoval order after a review?",
+      "answer": "the order is marked as reviewed you receive a notification and you can finalize the evaluation and generate a report.",
+      "original_question": "What happens to the AutoVal order after a review?",
+      "original_answer": "The order is marked as reviewed, you receive a notification, and you can finalize the evaluation and generate a report."
+    },
+    {
+      "question": "are there fees for using autoval?",
+      "answer": "yes fees vary based on the autoval product and services included inspections reviews. contact waivit support for pricing information.",
+      "original_question": "Are there fees for using AutoVal?",
+      "original_answer": "Yes, fees vary based on the AutoVal product and services included (inspections, reviews). Contact Waivit support for pricing information."
+    },
+    {
+      "question": "how do i start using autoval?",
+      "answer": "log in to the waivit platform create a new autoval order select your product and provide the necessary property information.",
+      "original_question": "How do I start using AutoVal?",
+      "original_answer": "Log in to the Waivit platform, create a new AutoVal order, select your product, and provide the necessary property information."
+    },
+    {
+      "question": "what is a comp?",
+      "answer": "a comp short for comparable is a recently sold property similar to the subject property being evaluated. comps are used to determine market value.",
+      "original_question": "What is a 'comp'?",
+      "original_answer": "A 'comp' (short for comparable) is a recently sold property similar to the subject property being evaluated. Comps are used to determine market value."
+    },
+    {
+      "question": "what is an outlier filter?",
+      "answer": "an outlier filter is a setting in autoval that helps exclude comparables that are significantly different from the subject property ensuring more accurate valuations.",
+      "original_question": "What is an outlier filter?",
+      "original_answer": "An outlier filter is a setting in AutoVal that helps exclude comparables that are significantly different from the subject property, ensuring more accurate valuations."
+    },
+    {
+      "question": "why am i not getting any comparable properties for my autoval order?",
+      "answer": "possible reasons include outlier filters are too restrictive limited data availability in the area data filtering issues or problems with the comp search logic.",
+      "original_question": "Why am I not getting any comparable properties for my AutoVal order?",
+      "original_answer": "Possible reasons include: outlier filters are too restrictive, limited data availability in the area, data filtering issues, or problems with the comp search logic."
+    },
+    {
+      "question": "how do i adjust the outlier filters?",
+      "answer": "you can adjust the outlier filters in autoval to include a wider range of potential comparables. however ensure that the selected comparables are still relevant and similar to the subject property.",
+      "original_question": "How do I adjust the outlier filters?",
+      "original_answer": "You can adjust the outlier filters in AutoVal to include a wider range of potential comparables. However, ensure that the selected comparables are still relevant and similar to the subject property."
+    },
+    {
+      "question": "what should i do if theres limited data available for comparable properties?",
+      "answer": "if data is limited consider expanding your data sources or adjusting outlier filters. you may also need to consult a professional appraiser for a more indepth analysis.",
+      "original_question": "What should I do if there's limited data available for comparable properties?",
+      "original_answer": "If data is limited, consider expanding your data sources or adjusting outlier filters. You may also need to consult a professional appraiser for a more in-depth analysis."
+    },
+    {
+      "question": "what is the subject property in an autoval evaluation?",
+      "answer": "the subject property is the property being evaluated for its value. all other properties comps are compared to the subject property.",
+      "original_question": "What is the 'subject property' in an AutoVal evaluation?",
+      "original_answer": "The subject property is the property being evaluated for its value. All other properties (comps) are compared to the subject property."
+    },
+    {
+      "question": "what information is needed for an autoval order?",
+      "answer": "typically you need the property address type residential or commercial and any additional details relevant to the valuation.",
+      "original_question": "What information is needed for an AutoVal order?",
+      "original_answer": "Typically, you need the property address, type (residential or commercial), and any additional details relevant to the valuation."
+    },
+    {
+      "question": "what is a scorecard in autoval?",
+      "answer": "a scorecard in autoval is a set of adjustments applied to comparable properties to account for differences between them and the subject property. these adjustments help refine the valuation process.",
+      "original_question": "What is a 'scorecard' in AutoVal?",
+      "original_answer": "A scorecard in AutoVal is a set of adjustments applied to comparable properties to account for differences between them and the subject property. These adjustments help refine the valuation process."
+    },
+    {
+      "question": "how do i choose the right scorecard?",
+      "answer": "the choice of scorecard depends on the specific property and the evaluation needs. you can consult with an appraiser or valuation expert for guidance on selecting the appropriate scorecard.",
+      "original_question": "How do I choose the right scorecard?",
+      "original_answer": "The choice of scorecard depends on the specific property and the evaluation needs. You can consult with an appraiser or valuation expert for guidance on selecting the appropriate scorecard."
+    },
+    {
+      "question": "can i customize the scorecard?",
+      "answer": "in some cases you may be able to customize the scorecard to adjust specific factors or weights based on your knowledge of the market and property.",
+      "original_question": "Can I customize the scorecard?",
+      "original_answer": "In some cases, you may be able to customize the scorecard to adjust specific factors or weights based on your knowledge of the market and property."
+    },
+    {
+      "question": "what is a reconciliation in autoval?",
+      "answer": "reconciliation in autoval refers to the final step of the valuation process where the appraiser or user reviews the avm fastr and other relevant data to arrive at a final opinion of value.",
+      "original_question": "What is a 'reconciliation' in AutoVal?",
+      "original_answer": "Reconciliation in AutoVal refers to the final step of the valuation process, where the appraiser or user reviews the AVM, FASTR, and other relevant data to arrive at a final opinion of value."
+    },
+    {
+      "question": "what factors are considered during reconciliation?",
+      "answer": "factors considered during reconciliation include market conditions property condition location comparable sales data adjustments and the overall scope of the evaluation.",
+      "original_question": "What factors are considered during reconciliation?",
+      "original_answer": "Factors considered during reconciliation include market conditions, property condition, location, comparable sales data, adjustments, and the overall scope of the evaluation."
+    },
+    {
+      "question": "is the autoval report a formal appraisal?",
+      "answer": "no autoval reports typically do not meet the requirements of a formal appraisal. they provide estimates of value and may not be acceptable for all lending or transactional purposes.",
+      "original_question": "Is the AutoVal report a formal appraisal?",
+      "original_answer": "No, AutoVal reports typically do not meet the requirements of a formal appraisal. They provide estimates of value and may not be acceptable for all lending or transactional purposes."
+    },
+    {
+      "question": "when should i get a formal appraisal?",
+      "answer": "consider a formal appraisal when you need a legally compliant and comprehensive valuation report such as for mortgage financing property tax appeals or estate planning.",
+      "original_question": "When should I get a formal appraisal?",
+      "original_answer": "Consider a formal appraisal when you need a legally compliant and comprehensive valuation report, such as for mortgage financing, property tax appeals, or estate planning."
+    },
+    {
+      "question": "how do i contact waivit support?",
+      "answer": "you can contact waivit support through their website or the contact information provided within the platform.",
+      "original_question": "How do I contact Waivit support?",
+      "original_answer": "You can contact Waivit support through their website or the contact information provided within the platform."
+    },
+    {
+      "question": "what are the system requirements for using waivit?",
+      "answer": "waivit is a webbased platform accessible through a modern web browser. specific system requirements may vary but generally youll need a stable internet connection and a device capable of running a web browser.",
+      "original_question": "What are the system requirements for using Waivit?",
+      "original_answer": "Waivit is a web-based platform accessible through a modern web browser. Specific system requirements may vary, but generally, you'll need a stable internet connection and a device capable of running a web browser."
+    },
+    {
+      "question": "is my data secure on waivit?",
+      "answer": "waivit takes data security seriously and implements industrystandard measures to protect your data. however its always a good practice to review their privacy policy and security practices.",
+      "original_question": "Is my data secure on Waivit?",
+      "original_answer": "Waivit takes data security seriously and implements industry-standard measures to protect your data. However, it's always a good practice to review their privacy policy and security practices."
+    },
+    {
+      "question": "can i integrate waivit with other systems?",
+      "answer": "waivit offers integrations with external systems such as foxyai for avv reports and potentially other real estate software. you can check their documentation or contact support for information on integrations.",
+      "original_question": "Can I integrate Waivit with other systems?",
+      "original_answer": "Waivit offers integrations with external systems, such as FoxyAI for AVV reports and potentially other real estate software. You can check their documentation or contact support for information on integrations."
+    },
+    {
+      "question": "is waivit compliant with industry regulations?",
+      "answer": "waivit aims to comply with relevant industry regulations and standards. however its important to consult with legal and regulatory experts to ensure compliance in your specific jurisdiction.",
+      "original_question": "Is Waivit compliant with industry regulations?",
+      "original_answer": "Waivit aims to comply with relevant industry regulations and standards. However, it's important to consult with legal and regulatory experts to ensure compliance in your specific jurisdiction."
+    },
+    {
+      "question": "what is the future roadmap for waivit?",
+      "answer": "waivit is constantly developing new features and enhancements. you can stay informed about their roadmap by checking their website or subscribing to their updates.",
+      "original_question": "What is the future roadmap for Waivit?",
+      "original_answer": "Waivit is constantly developing new features and enhancements. You can stay informed about their roadmap by checking their website or subscribing to their updates."
+    },
+    {
+      "question": "can i provide feedback on waivit?",
+      "answer": "yes waivit welcomes user feedback. you can usually submit feedback through the platform or contact their support team.",
+      "original_question": "Can I provide feedback on Waivit?",
+      "original_answer": "Yes, Waivit welcomes user feedback. You can usually submit feedback through the platform or contact their support team."
+    },
+    {
+      "question": "how can i get a demo of waivit?",
+      "answer": "you can request a demo of waivit by contacting their sales team. theyll be happy to show you the platforms features and answer any questions.",
+      "original_question": "How can I get a demo of Waivit?",
+      "original_answer": "You can request a demo of Waivit by contacting their sales team. They'll be happy to show you the platform's features and answer any questions."
+    },
+    {
+      "question": "what are some common us property market terms?",
+      "answer": "here are a few mls multiple listing service a database of properties for sale. appraisal a professional valuation of a property. comparables comps similar properties used to determine market value. market value the estimated price a property would sell for in a competitive market. equity the difference between the market value of a property and the outstanding mortgage balance.",
+      "original_question": "What are some common US property market terms?",
+      "original_answer": "Here are a few: \n- **MLS (Multiple Listing Service):** A database of properties for sale.\n- **Appraisal:** A professional valuation of a property.\n- **Comparables (Comps):** Similar properties used to determine market value. \n- **Market Value:** The estimated price a property would sell for in a competitive market. \n- **Equity:** The difference between the market value of a property and the outstanding mortgage balance."
+    },
+    {
+      "question": "what are the benefits of using autoval?",
+      "answer": "autoval offers several benefits speed provides quick valuations ideal when time is of the essence. costeffectiveness often more affordable than traditional appraisals. accuracy utilizes avm and fastr supported by additional validation options like inspections and reviews.",
+      "original_question": "What are the benefits of using AutoVal?",
+      "original_answer": "AutoVal offers several benefits: \n- **Speed:** Provides quick valuations, ideal when time is of the essence.\n- **Cost-effectiveness:**  Often more affordable than traditional appraisals.\n- **Accuracy:** Utilizes AVM and FASTR, supported by additional validation options like inspections and reviews."
+    },
+    {
+      "question": "is autoval suitable for all property types?",
+      "answer": "autoval is primarily designed for residential properties but it can also be used for certain commercial property types with appropriate data and models.",
+      "original_question": "Is AutoVal suitable for all property types?",
+      "original_answer": "AutoVal is primarily designed for residential properties, but it can also be used for certain commercial property types with appropriate data and models."
+    },
+    {
+      "question": "how accurate are autoval estimates?",
+      "answer": "the accuracy of autoval estimates depends on the quality and availability of data as well as the complexity of the property and market conditions. generally autoval estimates are within a reasonable range of the actual market value.",
+      "original_question": "How accurate are AutoVal estimates?",
+      "original_answer": "The accuracy of AutoVal estimates depends on the quality and availability of data, as well as the complexity of the property and market conditions. Generally, AutoVal estimates are within a reasonable range of the actual market value."
+    },
+    {
+      "question": "what services does waivit offer?",
+      "answer": "waivit offers a range of services including property inspections automated valuations avms appraisals and other real estaterelated services.",
+      "original_question": "What services does Waivit offer?",
+      "original_answer": "Waivit offers a range of services, including property inspections, automated valuations (AVMs), appraisals, and other real estate-related services."
+    },
+    {
+      "question": "how does waivit streamline the valuation process?",
+      "answer": "waivit provides a centralized platform for ordering and managing valuations inspections and other services reducing the time and effort required for coordination and communication.",
+      "original_question": "How does Waivit streamline the valuation process?",
+      "original_answer": "Waivit provides a centralized platform for ordering and managing valuations, inspections, and other services, reducing the time and effort required for coordination and communication."
+    },
+    {
+      "question": "can waivit integrate with other systems?",
+      "answer": "yes waivit can integrate with various lending platforms property databases and other systems through apis or data exchange mechanisms.",
+      "original_question": "Can Waivit integrate with other systems?",
+      "original_answer": "Yes, Waivit can integrate with various lending platforms, property databases, and other systems through APIs or data exchange mechanisms."
+    },
+    {
+      "question": "what is an automated visual valuation avv?",
+      "answer": "an automated visual valuation avv is a property valuation method that combines automated valuation models avms with visual data such as property images and aerial imagery to provide more accurate and reliable value estimates.",
+      "original_question": "What is an Automated Visual Valuation (AVV)?",
+      "original_answer": "An Automated Visual Valuation (AVV) is a property valuation method that combines automated valuation models (AVMs) with visual data, such as property images and aerial imagery, to provide more accurate and reliable value estimates."
+    },
+    {
+      "question": "how does an avv differ from a traditional avm?",
+      "answer": "unlike traditional avms that rely solely on property data and market trends avvs incorporate visual information to better assess a propertys condition quality and unique features resulting in more accurate valuations.",
+      "original_question": "How does an AVV differ from a traditional AVM?",
+      "original_answer": "Unlike traditional AVMs that rely solely on property data and market trends, AVVs incorporate visual information to better assess a property's condition, quality, and unique features, resulting in more accurate valuations."
+    },
+    {
+      "question": "what are the advantages of using an avv?",
+      "answer": "avvs offer improved accuracy compared to traditional avms as they can account for visual factors that may impact property value. they also provide a more comprehensive understanding of the property without the need for a physical inspection.",
+      "original_question": "What are the advantages of using an AVV?",
+      "original_answer": "AVVs offer improved accuracy compared to traditional AVMs, as they can account for visual factors that may impact property value. They also provide a more comprehensive understanding of the property without the need for a physical inspection."
+    },
+    {
+      "question": "can avvs be used for all property types?",
+      "answer": "avvs are primarily designed for residential properties but they can potentially be used for certain commercial property types with appropriate visual data and models.",
+      "original_question": "Can AVVs be used for all property types?",
+      "original_answer": "AVVs are primarily designed for residential properties, but they can potentially be used for certain commercial property types with appropriate visual data and models."
+    },
+    {
+      "question": "how does an avv process work?",
+      "answer": "the avv process typically involves uploading property images or aerial imagery which are then analyzed by computer vision algorithms and combined with property data and market trends to generate a comprehensive valuation report.",
+      "original_question": "How does an AVV process work?",
+      "original_answer": "The AVV process typically involves uploading property images or aerial imagery, which are then analyzed by computer vision algorithms and combined with property data and market trends to generate a comprehensive valuation report."
+    },
+    {
+      "question": "what is a broker price opinion bpo?",
+      "answer": "a broker price opinion bpo is a property valuation report prepared by a real estate broker or agent providing an estimate of a propertys market value based on their local market knowledge and analysis of comparable properties.",
+      "original_question": "What is a Broker Price Opinion (BPO)?",
+      "original_answer": "A Broker Price Opinion (BPO) is a property valuation report prepared by a real estate broker or agent, providing an estimate of a property's market value based on their local market knowledge and analysis of comparable properties."
+    },
+    {
+      "question": "when is a bpo typically used?",
+      "answer": "bpos are commonly used by lenders investors and asset managers to obtain a quick and costeffective estimate of a propertys value particularly in situations such as loan origination default servicing or portfolio management.",
+      "original_question": "When is a BPO typically used?",
+      "original_answer": "BPOs are commonly used by lenders, investors, and asset managers to obtain a quick and cost-effective estimate of a property's value, particularly in situations such as loan origination, default servicing, or portfolio management."
+    },
+    {
+      "question": "what information is included in a bpo?",
+      "answer": "a bpo typically includes property details an analysis of comparable sales market trends and the brokers opinion of value based on their expertise and local market knowledge.",
+      "original_question": "What information is included in a BPO?",
+      "original_answer": "A BPO typically includes property details, an analysis of comparable sales, market trends, and the broker's opinion of value based on their expertise and local market knowledge."
+    },
+    {
+      "question": "how does a bpo differ from an appraisal?",
+      "answer": "unlike a full appraisal a bpo is a more streamlined and less comprehensive valuation report. it does not require a physical inspection of the property and may not adhere to the same strict guidelines and standards as an appraisal.",
+      "original_question": "How does a BPO differ from an appraisal?",
+      "original_answer": "Unlike a full appraisal, a BPO is a more streamlined and less comprehensive valuation report. It does not require a physical inspection of the property and may not adhere to the same strict guidelines and standards as an appraisal."
+    },
+    {
+      "question": "what are the limitations of a bpo?",
+      "answer": "bpos are generally considered less reliable than appraisals as they are based on the brokers subjective opinion and may not account for all factors that influence a propertys value. they are typically used for less complex or lowerrisk transactions.",
+      "original_question": "What are the limitations of a BPO?",
+      "original_answer": "BPOs are generally considered less reliable than appraisals, as they are based on the broker's subjective opinion and may not account for all factors that influence a property's value. They are typically used for less complex or lower-risk transactions."
+    },
+    {
+      "question": "what is a comparative market analysis cma?",
+      "answer": "a comparative market analysis cma is a report prepared by a real estate agent or broker that analyzes recently sold properties similar to a subject property to estimate its potential market value.",
+      "original_question": "What is a Comparative Market Analysis (CMA)?",
+      "original_answer": "A Comparative Market Analysis (CMA) is a report prepared by a real estate agent or broker that analyzes recently sold properties similar to a subject property to estimate its potential market value."
+    },
+    {
+      "question": "how is a cma different from an appraisal?",
+      "answer": "a cma is less formal and comprehensive than an appraisal. it is primarily used by real estate agents to help sellers determine an appropriate listing price or by buyers to estimate a propertys value before making an offer.",
+      "original_question": "How is a CMA different from an appraisal?",
+      "original_answer": "A CMA is less formal and comprehensive than an appraisal. It is primarily used by real estate agents to help sellers determine an appropriate listing price or by buyers to estimate a property's value before making an offer."
+    },
+    {
+      "question": "what factors are considered in a cma?",
+      "answer": "a cma typically considers factors such as location property size age condition amenities and recent sales of comparable properties in the same area or neighborhood.",
+      "original_question": "What factors are considered in a CMA?",
+      "original_answer": "A CMA typically considers factors such as location, property size, age, condition, amenities, and recent sales of comparable properties in the same area or neighborhood."
+    },
+    {
+      "question": "can a cma be used for mortgage lending purposes?",
+      "answer": "no a cma is not considered a professional appraisal and is generally not accepted by lenders for mortgage lending purposes. lenders typically require a full appraisal conducted by a licensed appraiser.",
+      "original_question": "Can a CMA be used for mortgage lending purposes?",
+      "original_answer": "No, a CMA is not considered a professional appraisal and is generally not accepted by lenders for mortgage lending purposes. Lenders typically require a full appraisal conducted by a licensed appraiser."
+    },
+    {
+      "question": "what is a property condition report pcr?",
+      "answer": "a property condition report pcr is a comprehensive assessment of a propertys physical condition identifying any deficiencies deferred maintenance or potential issues that may impact its value or functionality.",
+      "original_question": "What is a Property Condition Report (PCR)?",
+      "original_answer": "A Property Condition Report (PCR) is a comprehensive assessment of a property's physical condition, identifying any deficiencies, deferred maintenance, or potential issues that may impact its value or functionality."
+    },
+    {
+      "question": "when is a pcr typically required?",
+      "answer": "pcrs are often required for commercial real estate transactions such as the acquisition or refinancing of incomeproducing properties to provide lenders investors or buyers with a detailed understanding of the propertys condition and potential repair or maintenance costs.",
+      "original_question": "When is a PCR typically required?",
+      "original_answer": "PCRs are often required for commercial real estate transactions, such as the acquisition or refinancing of income-producing properties, to provide lenders, investors, or buyers with a detailed understanding of the property's condition and potential repair or maintenance costs."
+    },
+    {
+      "question": "what does a pcr typically include?",
+      "answer": "a pcr typically includes a visual inspection of the propertys major systems and components such as the structure roof mechanical systems electrical systems plumbing and site improvements. it may also include recommendations for repairs or replacements.",
+      "original_question": "What does a PCR typically include?",
+      "original_answer": "A PCR typically includes a visual inspection of the property's major systems and components, such as the structure, roof, mechanical systems, electrical systems, plumbing, and site improvements. It may also include recommendations for repairs or replacements."
+    },
+    {
+      "question": "who conducts a pcr?",
+      "answer": "pcrs are typically conducted by qualified professionals such as architects engineers or specialized property condition assessment firms who have the expertise to evaluate the various aspects of a propertys condition.",
+      "original_question": "Who conducts a PCR?",
+      "original_answer": "PCRs are typically conducted by qualified professionals, such as architects, engineers, or specialized property condition assessment firms, who have the expertise to evaluate the various aspects of a property's condition."
+    },
+    {
+      "question": "how does a pcr differ from a home inspection?",
+      "answer": "a pcr is more comprehensive and detailed than a typical home inspection which is primarily focused on residential properties. pcrs are tailored for commercial real estate and often include more indepth analyses and cost estimates.",
+      "original_question": "How does a PCR differ from a home inspection?",
+      "original_answer": "A PCR is more comprehensive and detailed than a typical home inspection, which is primarily focused on residential properties. PCRs are tailored for commercial real estate and often include more in-depth analyses and cost estimates."
+    },
+    {
+      "question": "what is a highest and best use analysis?",
+      "answer": "a highest and best use analysis is a study conducted by appraisers or real estate professionals to determine the most profitable and legally permissible use of a property considering factors such as zoning market conditions and physical characteristics.",
+      "original_question": "What is a Highest and Best Use Analysis?",
+      "original_answer": "A Highest and Best Use Analysis is a study conducted by appraisers or real estate professionals to determine the most profitable and legally permissible use of a property, considering factors such as zoning, market conditions, and physical characteristics."
+    },
+    {
+      "question": "why is a highest and best use analysis important?",
+      "answer": "a highest and best use analysis is crucial in determining the maximum value a property can achieve as it guides the appropriate development renovation or use of the property to maximize its potential.",
+      "original_question": "Why is a Highest and Best Use Analysis important?",
+      "original_answer": "A Highest and Best Use Analysis is crucial in determining the maximum value a property can achieve, as it guides the appropriate development, renovation, or use of the property to maximize its potential."
+    },
+    {
+      "question": "what factors are considered in a highest and best use analysis?",
+      "answer": "key factors considered in a highest and best use analysis include legal permissibility physical possibility financial feasibility and maximum productivity or profitability of the potential uses.",
+      "original_question": "What factors are considered in a Highest and Best Use Analysis?",
+      "original_answer": "Key factors considered in a Highest and Best Use Analysis include legal permissibility, physical possibility, financial feasibility, and maximum productivity or profitability of the potential uses."
+    },
+    {
+      "question": "when is a highest and best use analysis typically conducted?",
+      "answer": "a highest and best use analysis is often conducted during the appraisal process particularly for commercial or investment properties as well as in land development and urban planning projects.",
+      "original_question": "When is a Highest and Best Use Analysis typically conducted?",
+      "original_answer": "A Highest and Best Use Analysis is often conducted during the appraisal process, particularly for commercial or investment properties, as well as in land development and urban planning projects."
+    },
+    {
+      "question": "what is a rent roll?",
+      "answer": "a rent roll is a document that provides detailed information about the tenants lease terms and rental income for an incomeproducing property such as an apartment complex or commercial building.",
+      "original_question": "What is a Rent Roll?",
+      "original_answer": "A Rent Roll is a document that provides detailed information about the tenants, lease terms, and rental income for an income-producing property, such as an apartment complex or commercial building."
+    },
+    {
+      "question": "what information is typically included in a rent roll?",
+      "answer": "a rent roll typically includes information such as tenant names unit or suite numbers lease start and end dates rental rates security deposits and any additional charges or fees.",
+      "original_question": "What information is typically included in a Rent Roll?",
+      "original_answer": "A Rent Roll typically includes information such as tenant names, unit or suite numbers, lease start and end dates, rental rates, security deposits, and any additional charges or fees."
+    },
+    {
+      "question": "why is a rent roll important?",
+      "answer": "a rent roll is an essential document for evaluating the financial performance and potential income of an incomeproducing property. it helps investors lenders and appraisers assess the propertys cash flow and determine its value.",
+      "original_question": "Why is a Rent Roll important?",
+      "original_answer": "A Rent Roll is an essential document for evaluating the financial performance and potential income of an income-producing property. It helps investors, lenders, and appraisers assess the property's cash flow and determine its value."
+    },
+    {
+      "question": "who provides the rent roll?",
+      "answer": "the rent roll is typically provided by the property owner or property management company responsible for managing the tenants and collecting rent payments.",
+      "original_question": "Who provides the Rent Roll?",
+      "original_answer": "The Rent Roll is typically provided by the property owner or property management company responsible for managing the tenants and collecting rent payments."
+    },
+    {
+      "question": "how often is a rent roll updated?",
+      "answer": "rent rolls are typically updated on a regular basis such as monthly or quarterly to reflect any changes in tenancy lease terms or rental rates.",
+      "original_question": "How often is a Rent Roll updated?",
+      "original_answer": "Rent Rolls are typically updated on a regular basis, such as monthly or quarterly, to reflect any changes in tenancy, lease terms, or rental rates."
+    },
+    {
+      "question": "what is a cap rate?",
+      "answer": "a cap rate or capitalization rate is a metric used in commercial real estate to estimate the potential return on investment for an incomeproducing property.",
+      "original_question": "What is a Cap Rate?",
+      "original_answer": "A Cap Rate, or Capitalization Rate, is a metric used in commercial real estate to estimate the potential return on investment for an income-producing property."
+    },
+    {
+      "question": "how is the cap rate calculated?",
+      "answer": "the cap rate is calculated by dividing the propertys net operating income noi by its current market value or purchase price.",
+      "original_question": "How is the Cap Rate calculated?",
+      "original_answer": "The Cap Rate is calculated by dividing the property's net operating income (NOI) by its current market value or purchase price."
+    },
+    {
+      "question": "why is the cap rate important?",
+      "answer": "the cap rate is a widely used metric for comparing and evaluating the potential returns of different incomeproducing properties. it helps investors and lenders assess the risk and potential profitability of a property investment.",
+      "original_question": "Why is the Cap Rate important?",
+      "original_answer": "The Cap Rate is a widely used metric for comparing and evaluating the potential returns of different income-producing properties. It helps investors and lenders assess the risk and potential profitability of a property investment."
+    },
+    {
+      "question": "what factors influence the cap rate?",
+      "answer": "cap rates are influenced by various factors including the propertys location condition tenant quality lease terms and overall market conditions. higherrisk properties typically have higher cap rates.",
+      "original_question": "What factors influence the Cap Rate?",
+      "original_answer": "Cap Rates are influenced by various factors, including the property's location, condition, tenant quality, lease terms, and overall market conditions. Higher-risk properties typically have higher Cap Rates."
+    },
+    {
+      "question": "how are cap rates used in property valuation?",
+      "answer": "cap rates can be used to estimate a propertys value by dividing the net operating income by the desired cap rate. this method is known as the income capitalization approach to valuation.",
+      "original_question": "How are Cap Rates used in property valuation?",
+      "original_answer": "Cap Rates can be used to estimate a property's value by dividing the net operating income by the desired Cap Rate. This method is known as the Income Capitalization Approach to valuation."
+    },
+    {
+      "question": "what is a gross rent multiplier grm?",
+      "answer": "a gross rent multiplier grm is a metric used in real estate to estimate the value of an incomeproducing property by comparing its gross rental income to the sale prices of similar properties.",
+      "original_question": "What is a Gross Rent Multiplier (GRM)?",
+      "original_answer": "A Gross Rent Multiplier (GRM) is a metric used in real estate to estimate the value of an income-producing property by comparing its gross rental income to the sale prices of similar properties."
+    },
+    {
+      "question": "how is the grm calculated?",
+      "answer": "the grm is calculated by dividing the sale price of a property by its gross annual rental income.",
+      "original_question": "How is the GRM calculated?",
+      "original_answer": "The GRM is calculated by dividing the sale price of a property by its gross annual rental income."
+    },
+    {
+      "question": "why is the grm useful?",
+      "answer": "the grm provides a quick and simple way to estimate the value of an incomeproducing property based on its rental income and comparable sales data. it is particularly useful for smaller residential income properties.",
+      "original_question": "Why is the GRM useful?",
+      "original_answer": "The GRM provides a quick and simple way to estimate the value of an income-producing property based on its rental income and comparable sales data. It is particularly useful for smaller residential income properties."
+    },
+    {
+      "question": "what are the limitations of the grm?",
+      "answer": "the grm does not account for operating expenses vacancy rates or other factors that can impact a propertys net income. it is generally considered a less accurate valuation method compared to more comprehensive approaches like the income capitalization approach.",
+      "original_question": "What are the limitations of the GRM?",
+      "original_answer": "The GRM does not account for operating expenses, vacancy rates, or other factors that can impact a property's net income. It is generally considered a less accurate valuation method compared to more comprehensive approaches like the Income Capitalization Approach."
+    },
+    {
+      "question": "when is the grm most commonly used?",
+      "answer": "the grm is most commonly used for valuing smaller residential income properties such as duplexes triplexes or small apartment buildings where operating expenses are relatively consistent and predictable.",
+      "original_question": "When is the GRM most commonly used?",
+      "original_answer": "The GRM is most commonly used for valuing smaller residential income properties, such as duplexes, triplexes, or small apartment buildings, where operating expenses are relatively consistent and predictable."
+    },
+    {
+      "question": "what is a replacement cost approach?",
+      "answer": "the replacement cost approach is a method of valuing a property based on the estimated cost of constructing a new equivalent property with similar utility adjusted for depreciation and other factors.",
+      "original_question": "What is a Replacement Cost Approach?",
+      "original_answer": "The Replacement Cost Approach is a method of valuing a property based on the estimated cost of constructing a new, equivalent property with similar utility, adjusted for depreciation and other factors."
+    },
+    {
+      "question": "when is the replacement cost approach typically used?",
+      "answer": "the replacement cost approach is often used for valuing unique or specialized properties where comparable sales data is limited or unavailable such as churches schools or industrial facilities.",
+      "original_question": "When is the Replacement Cost Approach typically used?",
+      "original_answer": "The Replacement Cost Approach is often used for valuing unique or specialized properties where comparable sales data is limited or unavailable, such as churches, schools, or industrial facilities."
+    },
+    {
+      "question": "what factors are considered in the replacement cost approach?",
+      "answer": "the replacement cost approach considers the cost of land construction materials and labor entrepreneurial profit and any depreciation or obsolescence factors that may impact the propertys value.",
+      "original_question": "What factors are considered in the Replacement Cost Approach?",
+      "original_answer": "The Replacement Cost Approach considers the cost of land, construction materials and labor, entrepreneurial profit, and any depreciation or obsolescence factors that may impact the property's value."
+    },
+    {
+      "question": "what are the limitations of the replacement cost approach?",
+      "answer": "the replacement cost approach can be complex and may not accurately reflect market conditions or buyer preferences. it is also heavily dependent on accurate cost estimates and depreciation calculations.",
+      "original_question": "What are the limitations of the Replacement Cost Approach?",
+      "original_answer": "The Replacement Cost Approach can be complex and may not accurately reflect market conditions or buyer preferences. It is also heavily dependent on accurate cost estimates and depreciation calculations."
+    },
+    {
+      "question": "how does the replacement cost approach differ from the cost approach?",
+      "answer": "the replacement cost approach is a variation of the cost approach but it specifically considers the cost of constructing a new equivalent property rather than reproducing the existing property exactly.",
+      "original_question": "How does the Replacement Cost Approach differ from the Cost Approach?",
+      "original_answer": "The Replacement Cost Approach is a variation of the Cost Approach, but it specifically considers the cost of constructing a new, equivalent property rather than reproducing the existing property exactly."
+    },
+    {
+      "question": "what is a discounted cash flow analysis?",
+      "answer": "a discounted cash flow dcf analysis is a valuation method used to estimate the present value of an incomeproducing property by discounting its projected future cash flows to account for the time value of money.",
+      "original_question": "What is a Discounted Cash Flow Analysis?",
+      "original_answer": "A Discounted Cash Flow (DCF) Analysis is a valuation method used to estimate the present value of an income-producing property by discounting its projected future cash flows to account for the time value of money."
+    },
+    {
+      "question": "when is a dcf analysis typically used?",
+      "answer": "a dcf analysis is commonly used for valuing commercial real estate investments such as office buildings shopping centers and apartment complexes where future cash flows can be reasonably estimated.",
+      "original_question": "When is a DCF Analysis typically used?",
+      "original_answer": "A DCF Analysis is commonly used for valuing commercial real estate investments, such as office buildings, shopping centers, and apartment complexes, where future cash flows can be reasonably estimated."
+    },
+    {
+      "question": "what factors are considered in a dcf analysis?",
+      "answer": "a dcf analysis considers factors such as projected rental income operating expenses vacancy rates capital expenditures and an appropriate discount rate to account for the risk and time value of money.",
+      "original_question": "What factors are considered in a DCF Analysis?",
+      "original_answer": "A DCF Analysis considers factors such as projected rental income, operating expenses, vacancy rates, capital expenditures, and an appropriate discount rate to account for the risk and time value of money."
+    },
+    {
+      "question": "what is the discount rate in a dcf analysis?",
+      "answer": "the discount rate is a critical component of a dcf analysis representing the required rate of return for an investor based on the perceived risk of the investment. it is used to discount future cash flows to their present value.",
+      "original_question": "What is the discount rate in a DCF Analysis?",
+      "original_answer": "The discount rate is a critical component of a DCF Analysis, representing the required rate of return for an investor based on the perceived risk of the investment. It is used to discount future cash flows to their present value."
+    },
+    {
+      "question": "what are the advantages of a dcf analysis?",
+      "answer": "a dcf analysis provides a comprehensive and forwardlooking valuation approach that considers the propertys expected cash flows over its remaining economic life. it is particularly useful for evaluating longterm investments or development projects.",
+      "original_question": "What are the advantages of a DCF Analysis?",
+      "original_answer": "A DCF Analysis provides a comprehensive and forward-looking valuation approach that considers the property's expected cash flows over its remaining economic life. It is particularly useful for evaluating long-term investments or development projects."
+    },
+    {
+      "question": "what is a sensitivity analysis in real estate valuation?",
+      "answer": "a sensitivity analysis is a technique used to evaluate the impact of changes in key assumptions or variables on the overall valuation of a property or investment.",
+      "original_question": "What is a Sensitivity Analysis in real estate valuation?",
+      "original_answer": "A Sensitivity Analysis is a technique used to evaluate the impact of changes in key assumptions or variables on the overall valuation of a property or investment."
+    },
+    {
+      "question": "why is a sensitivity analysis important?",
+      "answer": "a sensitivity analysis helps identify the variables that have the greatest impact on the valuation allowing investors and decisionmakers to better understand the risks and potential outcomes associated with different scenarios.",
+      "original_question": "Why is a Sensitivity Analysis important?",
+      "original_answer": "A Sensitivity Analysis helps identify the variables that have the greatest impact on the valuation, allowing investors and decision-makers to better understand the risks and potential outcomes associated with different scenarios."
+    },
+    {
+      "question": "what variables are typically analyzed in a sensitivity analysis?",
+      "answer": "common variables analyzed in a sensitivity analysis for real estate valuation include rental rates vacancy rates operating expenses capitalization rates discount rates and construction or development costs.",
+      "original_question": "What variables are typically analyzed in a Sensitivity Analysis?",
+      "original_answer": "Common variables analyzed in a Sensitivity Analysis for real estate valuation include rental rates, vacancy rates, operating expenses, capitalization rates, discount rates, and construction or development costs."
+    },
+    {
+      "question": "how is a sensitivity analysis conducted?",
+      "answer": "a sensitivity analysis is typically conducted by varying one or more key variables within a reasonable range while holding other variables constant and observing the resulting changes in the valuation or financial",
+      "original_question": "How is a Sensitivity Analysis conducted?",
+      "original_answer": "A Sensitivity Analysis is typically conducted by varying one or more key variables within a reasonable range while holding other variables constant, and observing the resulting changes in the valuation or financial"
+    },
+    {
+      "question": "what is a feasibility study in real estate?",
+      "answer": "a feasibility study is a comprehensive analysis conducted to evaluate the viability potential risks and profitability of a proposed real estate development or investment project.",
+      "original_question": "What is a Feasibility Study in real estate?",
+      "original_answer": "A Feasibility Study is a comprehensive analysis conducted to evaluate the viability, potential risks, and profitability of a proposed real estate development or investment project."
+    },
+    {
+      "question": "what factors are typically considered in a feasibility study?",
+      "answer": "a feasibility study typically considers factors such as market demand site suitability zoning and regulatory requirements construction costs financing options projected cash flows and potential risks or challenges.",
+      "original_question": "What factors are typically considered in a Feasibility Study?",
+      "original_answer": "A Feasibility Study typically considers factors such as market demand, site suitability, zoning and regulatory requirements, construction costs, financing options, projected cash flows, and potential risks or challenges."
+    },
+    {
+      "question": "why is a feasibility study important?",
+      "answer": "a feasibility study is crucial in determining whether a proposed real estate project is financially viable identifying potential issues or risks and providing decisionmakers with the necessary information to make informed investment decisions.",
+      "original_question": "Why is a Feasibility Study important?",
+      "original_answer": "A Feasibility Study is crucial in determining whether a proposed real estate project is financially viable, identifying potential issues or risks, and providing decision-makers with the necessary information to make informed investment decisions."
+    },
+    {
+      "question": "who conducts a feasibility study?",
+      "answer": "feasibility studies are typically conducted by a team of professionals including real estate consultants architects engineers market analysts and financial experts depending on the scope and complexity of the project.",
+      "original_question": "Who conducts a Feasibility Study?",
+      "original_answer": "Feasibility Studies are typically conducted by a team of professionals, including real estate consultants, architects, engineers, market analysts, and financial experts, depending on the scope and complexity of the project."
+    },
+    {
+      "question": "what is the outcome of a feasibility study?",
+      "answer": "the outcome of a feasibility study is a comprehensive report that outlines the findings recommendations and potential risks associated with the proposed project allowing stakeholders to decide whether to proceed with the investment or make necessary adjustments.",
+      "original_question": "What is the outcome of a Feasibility Study?",
+      "original_answer": "The outcome of a Feasibility Study is a comprehensive report that outlines the findings, recommendations, and potential risks associated with the proposed project, allowing stakeholders to decide whether to proceed with the investment or make necessary adjustments."
+    },
+    {
+      "question": "what is a market study in real estate?",
+      "answer": "a market study is a comprehensive analysis of the current and projected market conditions demand and supply factors for a specific real estate product or location.",
+      "original_question": "What is a Market Study in real estate?",
+      "original_answer": "A Market Study is a comprehensive analysis of the current and projected market conditions, demand, and supply factors for a specific real estate product or location."
+    },
+    {
+      "question": "why is a market study important?",
+      "answer": "a market study is crucial for understanding the potential demand competition and pricing strategies for a proposed real estate development or investment. it helps identify market opportunities potential risks and guides decisionmaking processes.",
+      "original_question": "Why is a Market Study important?",
+      "original_answer": "A Market Study is crucial for understanding the potential demand, competition, and pricing strategies for a proposed real estate development or investment. It helps identify market opportunities, potential risks, and guides decision-making processes."
+    },
+    {
+      "question": "what factors are typically analyzed in a market study?",
+      "answer": "a market study typically analyzes factors such as demographic trends economic conditions employment data housing preferences supply and absorption rates competitive properties and rental or sales price trends in the target market area.",
+      "original_question": "What factors are typically analyzed in a Market Study?",
+      "original_answer": "A Market Study typically analyzes factors such as demographic trends, economic conditions, employment data, housing preferences, supply and absorption rates, competitive properties, and rental or sales price trends in the target market area."
+    },
+    {
+      "question": "who conducts a market study?",
+      "answer": "market studies are typically conducted by real estate consultants market research firms or specialized market analysts with expertise in the specific real estate product or market segment.",
+      "original_question": "Who conducts a Market Study?",
+      "original_answer": "Market Studies are typically conducted by real estate consultants, market research firms, or specialized market analysts with expertise in the specific real estate product or market segment."
+    },
+    {
+      "question": "how is a market study used in real estate decisionmaking?",
+      "answer": "the findings and insights from a market study are used to inform various real estate decisions such as site selection product design pricing strategies marketing plans and investment feasibility assessments.",
+      "original_question": "How is a Market Study used in real estate decision-making?",
+      "original_answer": "The findings and insights from a Market Study are used to inform various real estate decisions, such as site selection, product design, pricing strategies, marketing plans, and investment feasibility assessments."
+    },
+    {
+      "question": "what are the different autoval products?",
+      "answer": "we offer four autoval products 1. autoval basic automated valuation with avm and fastr. 2. autoval includes an inspection with avv automated visual valuation. 3. autoval with review includes an appraiser review of the initial valuation. 4. autoval with review combines avv inspection and an appraiser review for the most comprehensive evaluation.",
+      "original_question": "What are the different AutoVal products?",
+      "original_answer": "We offer four AutoVal products: \n1. **AutoVal:** Basic automated valuation with AVM and FASTR.\n2. **AutoVal+:** Includes an inspection with AVV (Automated Visual Valuation).\n3. **AutoVal with Review:** Includes an appraiser review of the initial valuation.\n4. **AutoVal+ with Review:** Combines AVV inspection and an appraiser review for the most comprehensive evaluation."
+    },
+    {
+      "question": "how accurate is autoval?",
+      "answer": "autovals accuracy depends on the chosen product the availability of reliable data and the specific property. while autoval is generally accurate for initial estimates its important to consider that its not a replacement for a professional appraisal especially for highvalue properties or complex transactions.",
+      "original_question": "How accurate is AutoVal?",
+      "original_answer": "AutoVal's accuracy depends on the chosen product, the availability of reliable data, and the specific property.  While AutoVal is generally accurate for initial estimates, it's important to consider that it's not a replacement for a professional appraisal, especially for high-value properties or complex transactions."
+    },
+    {
+      "question": "what if theres a high variance between the avm and fastr values?",
+      "answer": "we have a builtin system to alert you if the avm and fastr values differ significantly. this indicates a potential for higher valuation uncertainty. youll be prompted to consider upgrading to autoval with review or autoval with review for a more indepth analysis.",
+      "original_question": "What if there's a high variance between the AVM and FASTR values?",
+      "original_answer": "We have a built-in system to alert you if the AVM and FASTR values differ significantly. This indicates a potential for higher valuation uncertainty. You'll be prompted to consider upgrading to 'AutoVal with Review' or 'AutoVal+ with Review' for a more in-depth analysis."
+    },
+    {
+      "question": "why might i need a human appraiser review?",
+      "answer": "a human appraiser review is beneficial for situations where a more detailed analysis is required such as highvalue properties a professional assessment is essential for significant investments. complex transactions when dealing with unique properties or specific market conditions an appraisers expertise is valuable.",
+      "original_question": "Why might I need a human appraiser review?",
+      "original_answer": "A human appraiser review is beneficial for situations where a more detailed analysis is required, such as: \n- **High-value properties:**  A professional assessment is essential for significant investments.\n- **Complex transactions:**  When dealing with unique properties or specific market conditions, an appraiser's expertise is valuable."
+    },
+    {
+      "question": "how does autoval find comparable properties?",
+      "answer": "autoval searches for comparable properties using your chosen data sources such as mls listings or public records. it considers factors like location property type size and other relevant criteria. you can also manually select and add specific comparables to the evaluation.",
+      "original_question": "How does AutoVal find comparable properties?",
+      "original_answer": "AutoVal searches for comparable properties using your chosen data sources, such as MLS listings or public records. It considers factors like location, property type, size, and other relevant criteria. You can also manually select and add specific comparables to the evaluation."
+    },
+    {
+      "question": "can i use avv data to find comparable properties?",
+      "answer": "yes you can use the visual valuation data from avv inspections as a source for finding comparable properties. this feature enhances your valuation process by providing visual insights that complement other data sources.",
+      "original_question": "Can I use AVV data to find comparable properties?",
+      "original_answer": "Yes! You can use the visual valuation data from AVV inspections as a source for finding comparable properties. This feature enhances your valuation process by providing visual insights that complement other data sources."
+    },
+    {
+      "question": "what are audit events in autoval and why are they important?",
+      "answer": "audit events track actions taken within the autoval process providing information for billing and analysis. they help us understand how autoval is being used identify trends and ensure accurate billing for services.",
+      "original_question": "What are audit events in AutoVal, and why are they important?",
+      "original_answer": "Audit events track actions taken within the AutoVal process, providing information for billing and analysis. They help us understand how AutoVal is being used, identify trends, and ensure accurate billing for services."
+    },
+    {
+      "question": "what are the costs associated with autoval?",
+      "answer": "there are fees associated with each autoval product. the pricing depends on the specific product autoval autoval etc. and any additional services like inspections or appraiser reviews. you can check our pricing information on the waivit website for more details.",
+      "original_question": "What are the costs associated with AutoVal?",
+      "original_answer": "There are fees associated with each AutoVal product. The pricing depends on the specific product (AutoVal, AutoVal+, etc.) and any additional services, like inspections or appraiser reviews. You can check our pricing information on the Waivit website for more details."
+    },
+    {
+      "question": "how do i get started with autoval?",
+      "answer": "to use autoval log in to the waivit platform and create a new autoval order. follow the onscreen instructions select your desired product and provide the necessary property information.",
+      "original_question": "How do I get started with AutoVal?",
+      "original_answer": "To use AutoVal, log in to the Waivit platform and create a new AutoVal order. Follow the on-screen instructions, select your desired product, and provide the necessary property information."
+    },
+    {
+      "question": "can i use autoval for properties in all states?",
+      "answer": "autoval is currently available for properties in most states. however the availability and accuracy of valuations may vary depending on the specific location and the data sources available.",
+      "original_question": "Can I use AutoVal for properties in all states?",
+      "original_answer": "AutoVal is currently available for properties in most states. However, the availability and accuracy of valuations may vary depending on the specific location and the data sources available."
+    },
+    {
+      "question": "what if the property i need to value is not in the waivit system?",
+      "answer": "if the property is not found in our system you can manually enter the property details. you can also contact our support team for assistance with finding or adding properties.",
+      "original_question": "What if the property I need to value is not in the Waivit system?",
+      "original_answer": "If the property is not found in our system, you can manually enter the property details.  You can also contact our support team for assistance with finding or adding properties."
+    },
+    {
+      "question": "how can i learn more about autoval?",
+      "answer": "you can find more information about autoval on the waivit website contact our support team or request a demo to see the features in action.",
+      "original_question": "How can I learn more about AutoVal?",
+      "original_answer": "You can find more information about AutoVal on the Waivit website, contact our support team, or request a demo to see the features in action."
+    },
+    {
+      "question": "what if i have more questions or need help with autoval?",
+      "answer": "were here to help our support team is available to answer your questions and guide you through the autoval process. you can contact them directly through the waivit platform or our website.",
+      "original_question": "What if I have more questions or need help with AutoVal?",
+      "original_answer": "We're here to help! Our support team is available to answer your questions and guide you through the AutoVal process. You can contact them directly through the Waivit platform or our website."
+    },
+    {
+      "question": "how does waivit ensure the accuracy of its valuations?",
+      "answer": "waivit uses a combination of advanced technology data sources and human expertise to ensure the accuracy of its valuations. we use reliable avm and fastr calculations leverage various data sources and offer optional inspection and review options to provide comprehensive assessments.",
+      "original_question": "How does Waivit ensure the accuracy of its valuations?",
+      "original_answer": "Waivit uses a combination of advanced technology, data sources, and human expertise to ensure the accuracy of its valuations.  We use reliable AVM and FASTR calculations, leverage various data sources, and offer optional inspection and review options to provide comprehensive assessments."
+    },
+    {
+      "question": "can i use waivit for multiple properties?",
+      "answer": "yes you can use waivit to manage and evaluate multiple properties. the platform is designed to accommodate a variety of property types and sizes making it suitable for individual users and organizations.",
+      "original_question": "Can I use Waivit for multiple properties?",
+      "original_answer": "Yes, you can use Waivit to manage and evaluate multiple properties. The platform is designed to accommodate a variety of property types and sizes, making it suitable for individual users and organizations."
+    },
+    {
+      "question": "what kind of reports can i get from waivit?",
+      "answer": "waivit provides various reports including automated valuations through autoval inspection reports and appraiser review reports. these reports are designed to be comprehensive and informative providing valuable insights for property assessments and decisionmaking.",
+      "original_question": "What kind of reports can I get from Waivit?",
+      "original_answer": "Waivit provides various reports, including automated valuations (through AutoVal), inspection reports, and appraiser review reports. These reports are designed to be comprehensive and informative, providing valuable insights for property assessments and decision-making."
+    },
+    {
+      "question": "how secure is my data on waivit?",
+      "answer": "waivit takes data security very seriously. we implement robust security measures to protect user data and ensure its confidentiality. our system utilizes encryption and access controls to safeguard sensitive information.",
+      "original_question": "How secure is my data on Waivit?",
+      "original_answer": "Waivit takes data security very seriously. We implement robust security measures to protect user data and ensure its confidentiality. Our system utilizes encryption and access controls to safeguard sensitive information."
+    },
+    {
+      "question": "what is waivit?",
+      "answer": "waivit is a platform developed by equity valuation partners evp designed to streamline and optimize the property inspection process for lenders appraisers and other real estate professionals.",
+      "original_question": "What is WAIVIT?",
+      "original_answer": "WAIVIT is a platform developed by Equity Valuation Partners (EVP) designed to streamline and optimize the property inspection process for lenders, appraisers, and other real estate professionals."
+    },
+    {
+      "question": "what kind of inspections does waivit handle?",
+      "answer": "waivit is built to manage a variety of property inspections including construction inspections home equity inspections interior and exterior and commercial property inspections. it can also be used for appraisalrelated inspections.",
+      "original_question": "What kind of inspections does WAIVIT handle?",
+      "original_answer": "WAIVIT is built to manage a variety of property inspections, including construction inspections, home equity inspections (interior and exterior), and commercial property inspections. It can also be used for appraisal-related inspections."
+    },
+    {
+      "question": "what are the main benefits of using waivit?",
+      "answer": "waivit offers several advantages streamlined inspection management realtime progress tracking improved communication reduced costs secure data storage integration with other valuation tools",
+      "original_question": "What are the main benefits of using WAIVIT?",
+      "original_answer": "WAIVIT offers several advantages:\n- Streamlined Inspection Management \n- Real-Time Progress Tracking \n- Improved Communication \n- Reduced Costs \n- Secure Data Storage \n- Integration with Other Valuation Tools"
+    },
+    {
+      "question": "can i use waivit for both residential and commercial properties?",
+      "answer": "yes waivit is designed to handle inspections for both residential and commercial properties. its flexible enough to meet the needs of various real estate professionals.",
+      "original_question": "Can I use WAIVIT for both residential and commercial properties?",
+      "original_answer": "Yes, WAIVIT is designed to handle inspections for both residential and commercial properties. It's flexible enough to meet the needs of various real estate professionals."
+    },
+    {
+      "question": "how does waivit integrate with snap?",
+      "answer": "waivit and snap are tightly integrated. inspectors use the snap mobile application to complete inspections taking photos and adding notes. the data is synced with waivit allowing reviewers to access it in realtime.",
+      "original_question": "How does WAIVIT integrate with SNAP?",
+      "original_answer": "WAIVIT and SNAP are tightly integrated. Inspectors use the SNAP mobile application to complete inspections, taking photos and adding notes. The data is synced with WAIVIT, allowing reviewers to access it in real-time."
+    },
+    {
+      "question": "can i use waivit if im not an evp client?",
+      "answer": "yes waivit offers selfsignup options allowing you to create an account and start using the platform even if youre not directly working with evp.",
+      "original_question": "Can I use WAIVIT if I'm not an EVP client?",
+      "original_answer": "Yes, WAIVIT offers self-signup options, allowing you to create an account and start using the platform, even if you're not directly working with EVP."
+    },
+    {
+      "question": "how do i create a new loan in waivit?",
+      "answer": "to create a new loan go to the loans page and click the create loan button. youll be prompted to enter the loan details such as the property address borrower name and loan amount.",
+      "original_question": "How do I create a new loan in WAIVIT?",
+      "original_answer": "To create a new loan, go to the 'Loans' page and click the 'Create Loan' button. You'll be prompted to enter the loan details, such as the property address, borrower name, and loan amount."
+    },
+    {
+      "question": "what is an allocation template and how does it work?",
+      "answer": "an allocation template defines the breakdown of disbursement percentages for construction loans. it acts as a guide for the loan disbursement process based on inspection completion progress. you can create custom templates or use prebuilt ones.",
+      "original_question": "What is an Allocation Template, and how does it work?",
+      "original_answer": "An Allocation Template defines the breakdown of disbursement percentages for construction loans. It acts as a guide for the loan disbursement process based on inspection completion progress. You can create custom templates or use pre-built ones."
+    },
+    {
+      "question": "how do i assign an inspection to an inspector?",
+      "answer": "you can assign inspections to inspectors in the new inspection form or by editing an existing inspection. waivit provides tools to search for available inspectors or create new inspector profiles.",
+      "original_question": "How do I assign an inspection to an inspector?",
+      "original_answer": "You can assign inspections to inspectors in the 'New Inspection' form or by editing an existing inspection. WAIVIT provides tools to search for available inspectors or create new inspector profiles."
+    },
+    {
+      "question": "can i set due dates for inspections?",
+      "answer": "yes you can set both scheduled dates and due dates for inspections in waivit. this helps ensure that inspections are completed on time.",
+      "original_question": "Can I set due dates for inspections?",
+      "original_answer": "Yes, you can set both scheduled dates and due dates for inspections in WAIVIT. This helps ensure that inspections are completed on time."
+    },
+    {
+      "question": "how can i see the progress of an inspection?",
+      "answer": "waivit provides realtime updates on inspection progress. the status of an inspection will change from pending to review to completed as it moves through the workflow. you can also see which photos have been uploaded by the inspector.",
+      "original_question": "How can I see the progress of an inspection?",
+      "original_answer": "WAIVIT provides real-time updates on inspection progress. The status of an inspection will change from 'Pending' to 'Review' to 'Completed' as it moves through the workflow. You can also see which photos have been uploaded by the inspector."
+    },
+    {
+      "question": "what happens when an inspection is submitted?",
+      "answer": "when an inspector submits an inspection its moved to the review queue in waivit. reviewers can then examine the photos notes and other inspection data. the reviewer can then approve or reject the inspection.",
+      "original_question": "What happens when an inspection is submitted?",
+      "original_answer": "When an inspector submits an inspection, it's moved to the 'Review' queue in WAIVIT. Reviewers can then examine the photos, notes, and other inspection data. The reviewer can then approve or reject the inspection."
+    },
+    {
+      "question": "what do i do if i need to reject an inspection?",
+      "answer": "if an inspection needs to be rejected you can use the reject button in waivit and provide instructions to the inspector on what needs to be corrected or reevaluated.",
+      "original_question": "What do I do if I need to reject an inspection?",
+      "original_answer": "If an inspection needs to be rejected, you can use the 'Reject' button in WAIVIT and provide instructions to the inspector on what needs to be corrected or re-evaluated."
+    },
+    {
+      "question": "how do i download an inspection report?",
+      "answer": "once an inspection is in the review or completed status you can click the download pdf button to generate and download a pdf report of the inspection including photos.",
+      "original_question": "How do I download an inspection report?",
+      "original_answer": "Once an inspection is in the 'Review' or 'Completed' status, you can click the 'Download PDF' button to generate and download a PDF report of the inspection, including photos."
+    },
+    {
+      "question": "what are attestation letters and how do i use them in waivit?",
+      "answer": "attestation letters are documents used to verify the completion of work on a property. waivit will soon offer a streamlined workflow to create and manage these letters helping you meet fannie mae requirements and saving time and money.",
+      "original_question": "What are Attestation Letters, and how do I use them in WAIVIT?",
+      "original_answer": "Attestation Letters are documents used to verify the completion of work on a property. WAIVIT will soon offer a streamlined workflow to create and manage these letters, helping you meet Fannie Mae requirements and saving time and money."
+    },
+    {
+      "question": "who can create an attestation letter in waivit?",
+      "answer": "based on fannie mae guidelines either the borrower or the builder can create an attestation letter depending on the type of construction.",
+      "original_question": "Who can create an Attestation Letter in WAIVIT?",
+      "original_answer": "Based on Fannie Mae guidelines, either the borrower or the builder can create an Attestation Letter, depending on the type of construction."
+    },
+    {
+      "question": "what types of attestation letters does waivit support?",
+      "answer": "waivit will support several types of attestation letters including new construction borrower attestation new construction builder attestation existing construction borrower attestation",
+      "original_question": "What types of Attestation Letters does WAIVIT support?",
+      "original_answer": "WAIVIT will support several types of Attestation Letters, including:\n- New Construction - Borrower Attestation\n- New Construction - Builder Attestation\n- Existing Construction - Borrower Attestation"
+    },
+    {
+      "question": "how do i request an attestation letter for a loan?",
+      "answer": "youll be able to request an attestation letter by clicking the add attestation button on the loans page in waivit. this will guide you through a simple process to select the correct attestation type and template.",
+      "original_question": "How do I request an Attestation Letter for a loan?",
+      "original_answer": "You'll be able to request an Attestation Letter by clicking the 'Add Attestation' button on the 'Loans' page in WAIVIT. This will guide you through a simple process to select the correct attestation type and template."
+    },
+    {
+      "question": "can i edit an attestation letter after its been created?",
+      "answer": "yes you will be able to edit an attestation letter that is in pending status before it has been submitted for review.",
+      "original_question": "Can I edit an Attestation Letter after it's been created?",
+      "original_answer": "Yes, you will be able to edit an Attestation Letter that is in 'Pending' status before it has been submitted for review."
+    },
+    {
+      "question": "how can i approve or reject an attestation letter?",
+      "answer": "once an attestation letter has been submitted by the inspector you can use the approve or reject buttons on the loan details page to manage the attestation.",
+      "original_question": "How can I approve or reject an Attestation Letter?",
+      "original_answer": "Once an Attestation Letter has been submitted by the inspector, you can use the 'Approve' or 'Reject' buttons on the 'Loan Details' page to manage the attestation."
+    },
+    {
+      "question": "can i download an attestation letter as a pdf?",
+      "answer": "yes once an attestation letter has been approved you can download it as a pdf file which you can then submit to fannie mae or other relevant parties.",
+      "original_question": "Can I download an Attestation Letter as a PDF?",
+      "original_answer": "Yes, once an Attestation Letter has been approved, you can download it as a PDF file, which you can then submit to Fannie Mae or other relevant parties."
+    },
+    {
+      "question": "what is the do notify flag in waivit?",
+      "answer": "the do notify flag is used to trigger automatic notifications to external systems or clients when an inspection is completed. this helps streamline the communication process.",
+      "original_question": "What is the 'Do Notify' flag in WAIVIT?",
+      "original_answer": "The 'Do Notify' flag is used to trigger automatic notifications to external systems or clients when an inspection is completed. This helps streamline the communication process."
+    },
+    {
+      "question": "how do i set up my organizations billing information?",
+      "answer": "you can manage your organizations billing details in the organization settings. this includes specifying the billing email preferred payment method and any applicable discounts or pricing plans.",
+      "original_question": "How do I set up my organization's billing information?",
+      "original_answer": "You can manage your organization's billing details in the organization settings. This includes specifying the billing email, preferred payment method, and any applicable discounts or pricing plans."
+    },
+    {
+      "question": "how are invoices generated in waivit?",
+      "answer": "invoices are generated based on completed inspections and the associated fees. the billing cycle and payment terms are determined by your organizations settings and agreements with evp.",
+      "original_question": "How are invoices generated in WAIVIT?",
+      "original_answer": "Invoices are generated based on completed inspections and the associated fees. The billing cycle and payment terms are determined by your organization's settings and agreements with EVP."
+    },
+    {
+      "question": "can i view past invoices in waivit?",
+      "answer": "yes you can access your organizations invoice history in waivit. this allows you to review past billing records.",
+      "original_question": "Can I view past invoices in WAIVIT?",
+      "original_answer": "Yes, you can access your organization's invoice history in WAIVIT. This allows you to review past billing records."
+    },
+    {
+      "question": "what are the pricing options for waivit?",
+      "answer": "waivit offers flexible pricing plans to suit different needs. you can contact evp support to discuss the best pricing option for your organization.",
+      "original_question": "What are the pricing options for WAIVIT?",
+      "original_answer": "WAIVIT offers flexible pricing plans to suit different needs. You can contact EVP support to discuss the best pricing option for your organization."
+    },
+    {
+      "question": "is there a free trial for waivit?",
+      "answer": "you can contact evp to inquire about trial options for waivit. they will be happy to discuss a plan that meets your requirements.",
+      "original_question": "Is there a free trial for WAIVIT?",
+      "original_answer": "You can contact EVP to inquire about trial options for WAIVIT. They will be happy to discuss a plan that meets your requirements."
+    },
+    {
+      "question": "how do i contact support for waivit?",
+      "answer": "you can reach evp support through their website or by calling their customer service line. they provide technical assistance and answer any questions you have about waivit.",
+      "original_question": "How do I contact support for WAIVIT?",
+      "original_answer": "You can reach EVP support through their website or by calling their customer service line. They provide technical assistance and answer any questions you have about WAIVIT."
+    },
+    {
+      "question": "how does waivit help reduce inspection costs?",
+      "answer": "waivit streamlines the inspection process reducing administrative overhead and enabling faster turnaround times. the platform also offers options for borrower or builder attestations which can be more costeffective than traditional appraisal reports.",
+      "original_question": "How does WAIVIT help reduce inspection costs?",
+      "original_answer": "WAIVIT streamlines the inspection process, reducing administrative overhead and enabling faster turnaround times. The platform also offers options for borrower or builder attestations, which can be more cost-effective than traditional appraisal reports."
+    },
+    {
+      "question": "can i create multiple inspections for a single loan?",
+      "answer": "yes you can create multiple inspections for the same loan in waivit allowing you to track different phases of construction or address specific inspection needs.",
+      "original_question": "Can I create multiple inspections for a single loan?",
+      "original_answer": "Yes, you can create multiple inspections for the same loan in WAIVIT, allowing you to track different phases of construction or address specific inspection needs."
+    },
+    {
+      "question": "how does waivit ensure the security of my data?",
+      "answer": "waivit uses industrystandard security measures including encryption and access control to protect your data. your information is stored securely and only accessible to authorized users.",
+      "original_question": "How does WAIVIT ensure the security of my data?",
+      "original_answer": "WAIVIT uses industry-standard security measures, including encryption and access control, to protect your data. Your information is stored securely and only accessible to authorized users."
+    },
+    {
+      "question": "can i customize the photo requirements for different inspection types?",
+      "answer": "yes you can customize the photo requirements for each inspection class e.g. exterior interiorexterior within your organizations settings. this ensures you receive the specific photos you need for each inspection type.",
+      "original_question": "Can I customize the photo requirements for different inspection types?",
+      "original_answer": "Yes, you can customize the photo requirements for each inspection class (e.g., Exterior, Interior/Exterior) within your organization's settings. This ensures you receive the specific photos you need for each inspection type."
+    },
+    {
+      "question": "can i add custom questions to inspections?",
+      "answer": "yes waivit allows you to define custom questions that are specific to your organization or inspection requirements. this helps gather additional data during inspections.",
+      "original_question": "Can I add custom questions to inspections?",
+      "original_answer": "Yes, WAIVIT allows you to define custom questions that are specific to your organization or inspection requirements. This helps gather additional data during inspections."
+    },
+    {
+      "question": "does waivit support integration with other valuation software?",
+      "answer": "yes waivit is designed to integrate with other valuation tools and systems. it currently integrates with foxyai for avv reports and will soon offer an api for integration with appraisalflo. you can contact evp support to discuss specific integration needs.",
+      "original_question": "Does WAIVIT support integration with other valuation software?",
+      "original_answer": "Yes, WAIVIT is designed to integrate with other valuation tools and systems. It currently integrates with FoxyAI for AVV reports and will soon offer an API for integration with AppraisalFlo.  You can contact EVP support to discuss specific integration needs."
+    },
+    {
+      "question": "what are the system requirements for using waivit?",
+      "answer": "waivit is a webbased platform so you can access it from any computer or mobile device with a modern web browser and an internet connection.",
+      "original_question": "What are the system requirements for using WAIVIT?",
+      "original_answer": "WAIVIT is a web-based platform, so you can access it from any computer or mobile device with a modern web browser and an internet connection."
+    },
+    {
+      "question": "is there training available for waivit?",
+      "answer": "evp offers training resources and support to help you learn how to use waivit effectively. they can provide guidance on getting started using features and managing your account.",
+      "original_question": "Is there training available for WAIVIT?",
+      "original_answer": "EVP offers training resources and support to help you learn how to use WAIVIT effectively. They can provide guidance on getting started, using features, and managing your account."
+    },
+    {
+      "question": "can i add notes or comments to inspections?",
+      "answer": "yes you can add notes and comments to inspections in waivit both during the inspection process using the snap app and during the review process. this helps facilitate communication and collaboration.",
+      "original_question": "Can I add notes or comments to inspections?",
+      "original_answer": "Yes, you can add notes and comments to inspections in WAIVIT, both during the inspection process (using the SNAP app) and during the review process. This helps facilitate communication and collaboration."
+    },
+    {
+      "question": "how do i update my profile information?",
+      "answer": "you can update your profile information including your name email and phone number in the settings section of your waivit account.",
+      "original_question": "How do I update my profile information?",
+      "original_answer": "You can update your profile information, including your name, email, and phone number, in the 'Settings' section of your WAIVIT account."
+    },
+    {
+      "question": "can i change my password in waivit?",
+      "answer": "yes you can change your password by going to the settings section of your account and selecting the password tab.",
+      "original_question": "Can I change my password in WAIVIT?",
+      "original_answer": "Yes, you can change your password by going to the 'Settings' section of your account and selecting the 'Password' tab. "
+    },
+    {
+      "question": "what if i forget my password?",
+      "answer": "if you forget your waivit password you can use the forgot password link on the login page to reset your password.",
+      "original_question": "What if I forget my password?",
+      "original_answer": "If you forget your WAIVIT password, you can use the 'Forgot Password' link on the login page to reset your password."
+    },
+    {
+      "question": "what are the different user roles in waivit?",
+      "answer": "waivit supports different user roles including administrators loan officers reviewers and inspectors. each role has specific permissions and access levels within the platform.",
+      "original_question": "What are the different user roles in WAIVIT?",
+      "original_answer": "WAIVIT supports different user roles, including administrators, loan officers, reviewers, and inspectors. Each role has specific permissions and access levels within the platform."
+    },
+    {
+      "question": "how can i get more information about waivits features?",
+      "answer": "you can explore the waivit documentation or contact evp support for a detailed overview of the platforms features and capabilities.",
+      "original_question": "How can I get more information about WAIVIT's features?",
+      "original_answer": "You can explore the WAIVIT documentation or contact EVP support for a detailed overview of the platform's features and capabilities."
+    },
+    {
+      "question": "can waivit be customized for my companys specific needs?",
+      "answer": "evp offers customization options for waivit to meet the unique requirements of different organizations. contact their support team to discuss potential customizations.",
+      "original_question": "Can WAIVIT be customized for my company's specific needs?",
+      "original_answer": "EVP offers customization options for WAIVIT to meet the unique requirements of different organizations. Contact their support team to discuss potential customizations."
+    },
+    {
+      "question": "what if i encounter a technical issue with waivit?",
+      "answer": "evp has a dedicated support team to assist you with any technical issues you experience. you can contact them through their website email or phone.",
+      "original_question": "What if I encounter a technical issue with WAIVIT?",
+      "original_answer": "EVP has a dedicated support team to assist you with any technical issues you experience.  You can contact them through their website, email, or phone. "
+    },
+    {
+      "question": "does waivit have an api?",
+      "answer": "yes waivit will soon offer an api to allow for seamless integration with your existing systems and workflows. this enables you to connect waivit to your appraisal platform or other valuation tools. contact evp for more information about the api.",
+      "original_question": "Does WAIVIT have an API?",
+      "original_answer": "Yes, WAIVIT will soon offer an API to allow for seamless integration with your existing systems and workflows. This enables you to connect WAIVIT to your appraisal platform or other valuation tools. Contact EVP for more information about the API."
+    },
+    {
+      "question": "what makes waivit different from other inspection management platforms?",
+      "answer": "waivits key differentiators include its close integration with other evp valuation tools like snap and autoval its focus on realtime data and updates its userfriendly interface and its flexibility for customization and integration.",
+      "original_question": "What makes WAIVIT different from other inspection management platforms?",
+      "original_answer": "WAIVIT's key differentiators include its close integration with other EVP valuation tools (like SNAP and AutoVal), its focus on real-time data and updates, its user-friendly interface, and its flexibility for customization and integration."
+    },
+    {
+      "question": "is waivit a secure platform?",
+      "answer": "yes waivit prioritizes data security and uses industrystandard security measures such as encryption and access control to protect your information.",
+      "original_question": "Is WAIVIT a secure platform?",
+      "original_answer": "Yes, WAIVIT prioritizes data security and uses industry-standard security measures, such as encryption and access control, to protect your information."
+    },
+    {
+      "question": "is waivit compliant with industry regulations?",
+      "answer": "waivit is designed to be compliant with relevant industry regulations including fannie mae guidelines for attestation letters. they strive to stay uptodate with evolving regulatory requirements.",
+      "original_question": "Is WAIVIT compliant with industry regulations?",
+      "original_answer": "WAIVIT is designed to be compliant with relevant industry regulations, including Fannie Mae guidelines for attestation letters. They strive to stay up-to-date with evolving regulatory requirements."
+    },
+    {
+      "question": "how can waivit improve my companys valuation process?",
+      "answer": "by streamlining inspections providing realtime data and integrating with other valuation tools waivit enables faster more accurate and more costeffective valuations ultimately improving your decisionmaking.",
+      "original_question": "How can WAIVIT improve my company's valuation process?",
+      "original_answer": "By streamlining inspections, providing real-time data, and integrating with other valuation tools, WAIVIT enables faster, more accurate, and more cost-effective valuations, ultimately improving your decision-making."
+    },
+    {
+      "question": "what is the future roadmap for waivit?",
+      "answer": "evp is continuously improving and expanding waivits capabilities. their roadmap includes enhancements to the attestation workflow api integration and advanced reporting features. stay tuned for updates",
+      "original_question": "What is the future roadmap for WAIVIT?",
+      "original_answer": "EVP is continuously improving and expanding WAIVIT's capabilities. Their roadmap includes enhancements to the attestation workflow, API integration, and advanced reporting features.  Stay tuned for updates!"
+    },
+    {
+      "question": "what are the different autoval options?",
+      "answer": "there are four autoval options 1. autoval basic automated valuation using avm and fastr. 2. autoval includes an inspection with automated visual valuation avv for additional validation. 3. autoval with review adds an appraiser review to the basic autoval process. 4. autoval with review combines avv and appraiser review for the most comprehensive valuation.",
+      "original_question": "What are the different AutoVal options?",
+      "original_answer": "There are four AutoVal options: \n1. **AutoVal:**  Basic automated valuation using AVM and FASTR.\n2. **AutoVal+:** Includes an inspection with Automated Visual Valuation (AVV) for additional validation.\n3. **AutoVal with Review:** Adds an appraiser review to the basic AutoVal process.\n4. **AutoVal+ with Review:**  Combines AVV and appraiser review for the most comprehensive valuation."
+    },
+    {
+      "question": "what if i want a human appraiser to review the valuation?",
+      "answer": "you can upgrade to autoval with review or autoval with review to have an appraiser review the valuation and provide a professional opinion.",
+      "original_question": "What if I want a human appraiser to review the valuation?",
+      "original_answer": "You can upgrade to 'AutoVal with Review' or 'AutoVal+ with Review' to have an appraiser review the valuation and provide a professional opinion."
+    },
+    {
+      "question": "what is the difference between autoval with review and autoval with review?",
+      "answer": "autoval with review includes an appraiser review while autoval with review combines the review with an inspection and avv for a more comprehensive approach.",
+      "original_question": "What is the difference between 'AutoVal with Review' and 'AutoVal+ with Review'?",
+      "original_answer": "'AutoVal with Review' includes an appraiser review, while 'AutoVal+ with Review' combines the review with an inspection and AVV for a more comprehensive approach."
+    },
+    {
+      "question": "how can i set the variance threshold for autoval?",
+      "answer": "you can set the acceptable variance threshold between avm and fastr values at the organization level. this allows you to define a level of tolerance that suits your needs.",
+      "original_question": "How can I set the variance threshold for AutoVal?",
+      "original_answer": "You can set the acceptable variance threshold between AVM and FASTR values at the organization level. This allows you to define a level of tolerance that suits your needs."
+    },
+    {
+      "question": "how do i find comparable properties using autoval?",
+      "answer": "autoval automatically searches for comparable properties based on the selected data sources and criteria. you can also manually select and add comparables to the evaluation.",
+      "original_question": "How do I find comparable properties using AutoVal?",
+      "original_answer": "AutoVal automatically searches for comparable properties based on the selected data sources and criteria. You can also manually select and add comparables to the evaluation."
+    },
+    {
+      "question": "can i use avv data as a source for finding comparables?",
+      "answer": "yes you can use avv data as a source for finding comparable properties. this feature allows you to leverage the visual valuation data from inspections to enhance your evaluation process.",
+      "original_question": "Can I use AVV data as a source for finding comparables?",
+      "original_answer": "Yes, you can use AVV data as a source for finding comparable properties. This feature allows you to leverage the visual valuation data from inspections to enhance your evaluation process."
+    },
+    {
+      "question": "what is the purpose of the audit events for autoval?",
+      "answer": "audit events track the different actions performed within the autoval process providing information for billing and analysis. they help to understand how autoval is being used and identify any patterns or trends.",
+      "original_question": "What is the purpose of the audit events for AutoVal?",
+      "original_answer": "Audit events track the different actions performed within the AutoVal process, providing information for billing and analysis. They help to understand how AutoVal is being used and identify any patterns or trends."
+    },
+    {
+      "question": "what is the difference between an inspection and a review in autoval?",
+      "answer": "an inspection provides visual valuation data through photos and an avv report while a review involves a professional appraiser evaluating the property and providing their opinion on its value.",
+      "original_question": "What is the difference between an inspection and a review in AutoVal?",
+      "original_answer": "An inspection provides visual valuation data through photos and an AVV report, while a review involves a professional appraiser evaluating the property and providing their opinion on its value."
+    },
+    {
+      "question": "can i see the avv report after the inspection is completed?",
+      "answer": "yes once the inspection is approved the avv report will be automatically merged with the autoval order and you can view the visual valuation data.",
+      "original_question": "Can I see the AVV report after the inspection is completed?",
+      "original_answer": "Yes, once the inspection is approved, the AVV report will be automatically merged with the AutoVal order, and you can view the visual valuation data."
+    },
+    {
+      "question": "what happens to the autoval order after a review is completed?",
+      "answer": "once an appraiser has reviewed the valuation the order will be marked as reviewed and you will receive a notification. you can then finalize the evaluation and generate a report.",
+      "original_question": "What happens to the AutoVal order after a review is completed?",
+      "original_answer": "Once an appraiser has reviewed the valuation, the order will be marked as reviewed, and you will receive a notification. You can then finalize the evaluation and generate a report."
+    },
+    {
+      "question": "is there a fee for using autoval?",
+      "answer": "yes there are fees associated with each autoval product including inspections and appraiser reviews. the pricing is dependent on the specific product and services included.",
+      "original_question": "Is there a fee for using AutoVal?",
+      "original_answer": "Yes, there are fees associated with each AutoVal product, including inspections and appraiser reviews. The pricing is dependent on the specific product and services included."
+    },
+    {
+      "question": "what is a buyers market?",
+      "answer": "a buyers market occurs when the supply of homes exceeds demand giving buyers more negotiating power. homes typically stay on the market longer and prices may stabilize or decrease.",
+      "original_question": "What is a buyer's market?",
+      "original_answer": "A buyer's market occurs when the supply of homes exceeds demand, giving buyers more negotiating power. Homes typically stay on the market longer, and prices may stabilize or decrease."
+    },
+    {
+      "question": "what is a sellers market?",
+      "answer": "a sellers market happens when demand exceeds supply giving sellers the upper hand. homes usually sell quickly and may receive multiple offers often driving prices higher.",
+      "original_question": "What is a seller's market?",
+      "original_answer": "A seller's market happens when demand exceeds supply, giving sellers the upper hand. Homes usually sell quickly and may receive multiple offers, often driving prices higher."
+    },
+    {
+      "question": "how do interest rates affect the real estate market?",
+      "answer": "higher interest rates usually lead to higher mortgage costs which can deter buyers and slow down the market. conversely lower interest rates can stimulate buying increasing demand and potentially driving up home prices.",
+      "original_question": "How do interest rates affect the real estate market?",
+      "original_answer": "Higher interest rates usually lead to higher mortgage costs, which can deter buyers and slow down the market. Conversely, lower interest rates can stimulate buying, increasing demand and potentially driving up home prices."
+    },
+    {
+      "question": "what factors influence the price of a home?",
+      "answer": "numerous factors can influence the price of a home including its location size condition and amenities. market conditions interest rates and economic indicators also play a role.",
+      "original_question": "What factors influence the price of a home?",
+      "original_answer": "Numerous factors can influence the price of a home, including its location, size, condition, and amenities. Market conditions, interest rates, and economic indicators also play a role."
+    },
+    {
+      "question": "how do i know when its the right time to sell my home?",
+      "answer": "deciding the right time to sell your home involves multiple factors such as current market conditions interest rates and your own financial situation. consulting a real estate expert can help you understand market trends and seasonal patterns.",
+      "original_question": "How do I know when it’s the right time to sell my home?",
+      "original_answer": "Deciding the right time to sell your home involves multiple factors such as current market conditions, interest rates, and your own financial situation. Consulting a real estate expert can help you understand market trends and seasonal patterns."
+    },
+    {
+      "question": "what can i do to prepare my home for sale?",
+      "answer": "preparation is key when selling your home. start with curb appeal the exterior should look clean and inviting. inside declutter spaces and consider staging the rooms. necessary repairs and improvements can also make a significant difference.",
+      "original_question": "What can I do to prepare my home for sale?",
+      "original_answer": "Preparation is key when selling your home. Start with curb appeal; the exterior should look clean and inviting. Inside, declutter spaces and consider staging the rooms. Necessary repairs and improvements can also make a significant difference."
+    },
+    {
+      "question": "how is the selling price for my home determined?",
+      "answer": "the selling price of your home is generally determined through a comparative market analysis cma which involves evaluating similar properties in your area that have recently sold are currently listed or were listed but did not sell.",
+      "original_question": "How is the selling price for my home determined?",
+      "original_answer": "The selling price of your home is generally determined through a Comparative Market Analysis (CMA), which involves evaluating similar properties in your area that have recently sold, are currently listed, or were listed but did not sell."
+    },
+    {
+      "question": "what marketing strategies can i use to sell my home?",
+      "answer": "effective marketing strategies include listing your home on multiple real estate websites using social media digital ad campaigns and leveraging email campaigns. highquality photos videos virtual tours and even drone footage can enhance your listings online presence.",
+      "original_question": "What marketing strategies can I use to sell my home?",
+      "original_answer": "Effective marketing strategies include listing your home on multiple real estate websites, using social media, digital ad campaigns, and leveraging email campaigns. High-quality photos, videos, virtual tours, and even drone footage can enhance your listing’s online presence."
+    },
+    {
+      "question": "what is the first step of the home buying process?",
+      "answer": "getting preapproved for a mortgage is the first step of the home buying process. this helps you understand how much you can borrow and demonstrates to sellers that you are a serious buyer.",
+      "original_question": "What is the first step of the home buying process?",
+      "original_answer": "Getting pre-approved for a mortgage is the first step of the home buying process. This helps you understand how much you can borrow and demonstrates to sellers that you are a serious buyer."
+    },
+    {
+      "question": "how long does it take to buy a home?",
+      "answer": "it takes approximately 10 to 12 weeks to buy a house from the start looking online to the conclusion closing escrow.",
+      "original_question": "How long does it take to buy a home?",
+      "original_answer": "It takes approximately 10 to 12 weeks to buy a house from the start (looking online) to the conclusion (closing escrow)."
+    },
+    {
+      "question": "what is earnest money?",
+      "answer": "earnest money is a deposit made to a seller showing the buyers good faith in a transaction. it is typically between 1 and 3 of the purchase price and is held in an escrow account until closing.",
+      "original_question": "What is earnest money?",
+      "original_answer": "Earnest money is a deposit made to a seller showing the buyer's good faith in a transaction. It is typically between 1% and 3% of the purchase price and is held in an escrow account until closing."
+    },
+    {
+      "question": "how long can the seller take to respond to my offer?",
+      "answer": "a seller typically has 24 to 48 hours to respond to an offer but this can vary depending on the terms set in the offer.",
+      "original_question": "How long can the seller take to respond to my offer?",
+      "original_answer": "A seller typically has 24 to 48 hours to respond to an offer, but this can vary depending on the terms set in the offer."
+    },
+    {
+      "question": "what if my offer is rejected?",
+      "answer": "if your offer is rejected the seller may provide a counteroffer. negotiations can continue until both parties reach an agreement or decide to walk away.",
+      "original_question": "What if my offer is rejected?",
+      "original_answer": "If your offer is rejected, the seller may provide a counteroffer. Negotiations can continue until both parties reach an agreement or decide to walk away."
+    },
+    {
+      "question": "how many homes should i view before buying one?",
+      "answer": "there is no set number of homes you should view before buying. it depends on your personal preferences and how quickly you find a home that meets your needs.",
+      "original_question": "How many homes should I view before buying one?",
+      "original_answer": "There is no set number of homes you should view before buying. It depends on your personal preferences and how quickly you find a home that meets your needs."
+    },
+    {
+      "question": "what is a stratified market?",
+      "answer": "a stratified market occurs when supply and demand characteristics differ by price point in the same area. for example highend homes may be in a sellers market while midpriced homes are in a buyers market.",
+      "original_question": "What is a stratified market?",
+      "original_answer": "A stratified market occurs when supply and demand characteristics differ by price point in the same area. For example, high-end homes may be in a seller's market while mid-priced homes are in a buyer's market."
+    },
+    {
+      "question": "what is a mortgage and how does it work?",
+      "answer": "a mortgage is a loan used to purchase a home. the borrower agrees to repay the loan over a set period typically 15 or 30 years with interest. the home serves as collateral for the loan.",
+      "original_question": "What is a mortgage and how does it work?",
+      "original_answer": "A mortgage is a loan used to purchase a home. The borrower agrees to repay the loan over a set period, typically 15 or 30 years, with interest. The home serves as collateral for the loan."
+    },
+    {
+      "question": "what is the average credit score needed to buy a home?",
+      "answer": "the average credit score needed to buy a home varies by lender but a score of 620 or higher is generally considered acceptable for most conventional loans.",
+      "original_question": "What is the average credit score needed to buy a home?",
+      "original_answer": "The average credit score needed to buy a home varies by lender, but a score of 620 or higher is generally considered acceptable for most conventional loans."
+    },
+    {
+      "question": "what is a home inspection?",
+      "answer": "a home inspection is an examination of a propertys condition usually conducted by a professional inspector. it covers the homes structure systems and components identifying any issues that need to be addressed.",
+      "original_question": "What is a home inspection?",
+      "original_answer": "A home inspection is an examination of a property's condition, usually conducted by a professional inspector. It covers the home's structure, systems, and components, identifying any issues that need to be addressed."
+    },
+    {
+      "question": "should i order a home inspection before buying?",
+      "answer": "yes ordering a home inspection before buying is highly recommended. it can reveal potential issues with the property that may affect your decision to purchase or the price you are willing to pay.",
+      "original_question": "Should I order a home inspection before buying?",
+      "original_answer": "Yes, ordering a home inspection before buying is highly recommended. It can reveal potential issues with the property that may affect your decision to purchase or the price you are willing to pay."
+    },
+    {
+      "question": "what is a home appraisal?",
+      "answer": "a home appraisal is an assessment of a propertys value conducted by a licensed appraiser. it is typically required by lenders to ensure the loan amount does not exceed the homes value.",
+      "original_question": "What is a home appraisal?",
+      "original_answer": "A home appraisal is an assessment of a property's value conducted by a licensed appraiser. It is typically required by lenders to ensure the loan amount does not exceed the home's value."
+    },
+    {
+      "question": "what is the difference between prequalification and preapproval?",
+      "answer": "prequalification is an initial assessment of your ability to borrow based on selfreported information. preapproval is a more thorough evaluation including a credit check and verification of financial information resulting in a conditional commitment from the lender.",
+      "original_question": "What is the difference between pre-qualification and pre-approval?",
+      "original_answer": "Pre-qualification is an initial assessment of your ability to borrow, based on self-reported information. Pre-approval is a more thorough evaluation, including a credit check and verification of financial information, resulting in a conditional commitment from the lender."
+    },
+    {
+      "question": "what is private mortgage insurance pmi?",
+      "answer": "private mortgage insurance pmi is insurance that protects the lender if the borrower defaults on the loan. it is typically required for conventional loans with a down payment of less than 20.",
+      "original_question": "What is private mortgage insurance (PMI)?",
+      "original_answer": "Private mortgage insurance (PMI) is insurance that protects the lender if the borrower defaults on the loan. It is typically required for conventional loans with a down payment of less than 20%."
+    },
+    {
+      "question": "what are closing costs?",
+      "answer": "closing costs are fees and expenses associated with finalizing a real estate transaction. they can include loan origination fees appraisal fees title insurance and attorney fees among others.",
+      "original_question": "What are closing costs?",
+      "original_answer": "Closing costs are fees and expenses associated with finalizing a real estate transaction. They can include loan origination fees, appraisal fees, title insurance, and attorney fees, among others."
+    },
+    {
+      "question": "what is a down payment?",
+      "answer": "a down payment is the initial payment made by the buyer towards the purchase price of a home. it is typically expressed as a percentage of the total price with 20 being a common amount for conventional loans.",
+      "original_question": "What is a down payment?",
+      "original_answer": "A down payment is the initial payment made by the buyer towards the purchase price of a home. It is typically expressed as a percentage of the total price, with 20% being a common amount for conventional loans."
+    },
+    {
+      "question": "what is an escrow account?",
+      "answer": "an escrow account is a thirdparty account used to hold funds during a real estate transaction. it ensures that money is properly disbursed to the appropriate parties at closing.",
+      "original_question": "What is an escrow account?",
+      "original_answer": "An escrow account is a third-party account used to hold funds during a real estate transaction. It ensures that money is properly disbursed to the appropriate parties at closing."
+    },
+    {
+      "question": "what is a title search?",
+      "answer": "a title search is an examination of public records to verify the legal ownership of a property and to identify any liens encumbrances or other issues that may affect the title.",
+      "original_question": "What is a title search?",
+      "original_answer": "A title search is an examination of public records to verify the legal ownership of a property and to identify any liens, encumbrances, or other issues that may affect the title."
+    },
+    {
+      "question": "what is title insurance?",
+      "answer": "title insurance protects the buyer and lender against losses arising from defects in the title such as liens encumbrances or other issues that were not discovered during the title search.",
+      "original_question": "What is title insurance?",
+      "original_answer": "Title insurance protects the buyer and lender against losses arising from defects in the title, such as liens, encumbrances, or other issues that were not discovered during the title search."
+    },
+    {
+      "question": "what is a contingency in a real estate contract?",
+      "answer": "a contingency is a condition that must be met for the contract to be binding. common contingencies include financing home inspection and appraisal contingencies.",
+      "original_question": "What is a contingency in a real estate contract?",
+      "original_answer": "A contingency is a condition that must be met for the contract to be binding. Common contingencies include financing, home inspection, and appraisal contingencies."
+    },
+    {
+      "question": "what is a short sale?",
+      "answer": "a short sale occurs when a homeowner sells their property for less than the amount owed on the mortgage with the lenders approval. it is typically used as an alternative to foreclosure.",
+      "original_question": "What is a short sale?",
+      "original_answer": "A short sale occurs when a homeowner sells their property for less than the amount owed on the mortgage, with the lender's approval. It is typically used as an alternative to foreclosure."
+    },
+    {
+      "question": "what is foreclosure?",
+      "answer": "foreclosure is the legal process by which a lender takes possession of a property due to the borrowers failure to make mortgage payments.",
+      "original_question": "What is foreclosure?",
+      "original_answer": "Foreclosure is the legal process by which a lender takes possession of a property due to the borrower's failure to make mortgage payments."
+    },
+    {
+      "question": "what is a real estate agents commission?",
+      "answer": "a real estate agents commission is a fee paid to the agent for their services in facilitating a real estate transaction. it is typically a percentage of the sale price with 5 to 6 being common.",
+      "original_question": "What is a real estate agent's commission?",
+      "original_answer": "A real estate agent's commission is a fee paid to the agent for their services in facilitating a real estate transaction. It is typically a percentage of the sale price, with 5% to 6% being common."
+    },
+    {
+      "question": "what is a dual agency?",
+      "answer": "dual agency occurs when a single real estate agent or brokerage represents both the buyer and the seller in a transaction. it is legal in some states but requires full disclosure and consent from both parties.",
+      "original_question": "What is a dual agency?",
+      "original_answer": "Dual agency occurs when a single real estate agent or brokerage represents both the buyer and the seller in a transaction. It is legal in some states but requires full disclosure and consent from both parties."
+    },
+    {
+      "question": "what is a multiple listing service mls?",
+      "answer": "a multiple listing service mls is a database used by real estate agents to share information about properties for sale. it allows agents to access a wide range of listings and collaborate with other agents.",
+      "original_question": "What is a multiple listing service (MLS)?",
+      "original_answer": "A multiple listing service (MLS) is a database used by real estate agents to share information about properties for sale. It allows agents to access a wide range of listings and collaborate with other agents."
+    },
+    {
+      "question": "what is a deed?",
+      "answer": "a deed is a legal document that transfers ownership of a property from one party to another. it must be signed notarized and recorded with the appropriate government office.",
+      "original_question": "What is a deed?",
+      "original_answer": "A deed is a legal document that transfers ownership of a property from one party to another. It must be signed, notarized, and recorded with the appropriate government office."
+    },
+    {
+      "question": "what is a lien?",
+      "answer": "a lien is a legal claim against a property typically used as collateral for a debt. it must be paid off before the property can be sold.",
+      "original_question": "What is a lien?",
+      "original_answer": "A lien is a legal claim against a property, typically used as collateral for a debt. It must be paid off before the property can be sold."
+    },
+    {
+      "question": "what is a home warranty?",
+      "answer": "a home warranty is a service contract that covers the repair or replacement of major home systems and appliances that fail due to normal wear and tear.",
+      "original_question": "What is a home warranty?",
+      "original_answer": "A home warranty is a service contract that covers the repair or replacement of major home systems and appliances that fail due to normal wear and tear."
+    },
+    {
+      "question": "what is a condominium?",
+      "answer": "a condominium is a type of property ownership where individuals own their units within a larger building or complex while common areas are jointly owned and maintained by a homeowners association hoa.",
+      "original_question": "What is a condominium?",
+      "original_answer": "A condominium is a type of property ownership where individuals own their units within a larger building or complex, while common areas are jointly owned and maintained by a homeowners' association (HOA)."
+    },
+    {
+      "question": "what is a homeowners association hoa?",
+      "answer": "a homeowners association hoa is an organization that manages and maintains common areas and enforces rules and regulations for a community of homes or condominiums.",
+      "original_question": "What is a homeowners' association (HOA)?",
+      "original_answer": "A homeowners' association (HOA) is an organization that manages and maintains common areas and enforces rules and regulations for a community of homes or condominiums."
+    },
+    {
+      "question": "what is a fixedrate mortgage?",
+      "answer": "a fixedrate mortgage is a home loan with an interest rate that remains constant for the entire term of the loan providing predictable monthly payments.",
+      "original_question": "What is a fixed-rate mortgage?",
+      "original_answer": "A fixed-rate mortgage is a home loan with an interest rate that remains constant for the entire term of the loan, providing predictable monthly payments."
+    },
+    {
+      "question": "what is an adjustablerate mortgage arm?",
+      "answer": "an adjustablerate mortgage arm is a home loan with an interest rate that can change periodically based on market conditions resulting in fluctuating monthly payments.",
+      "original_question": "What is an adjustable-rate mortgage (ARM)?",
+      "original_answer": "An adjustable-rate mortgage (ARM) is a home loan with an interest rate that can change periodically based on market conditions, resulting in fluctuating monthly payments."
+    },
+    {
+      "question": "what is a jumbo loan?",
+      "answer": "a jumbo loan is a mortgage that exceeds the conforming loan limits set by the federal housing finance agency fhfa. it is typically used for highvalue properties and may have stricter qualification requirements.",
+      "original_question": "What is a jumbo loan?",
+      "original_answer": "A jumbo loan is a mortgage that exceeds the conforming loan limits set by the Federal Housing Finance Agency (FHFA). It is typically used for high-value properties and may have stricter qualification requirements."
+    },
+    {
+      "question": "what is a va loan?",
+      "answer": "a va loan is a mortgage loan guaranteed by the u.s. department of veterans affairs va for eligible veterans activeduty service members and certain members of the national guard and reserves. it often requires no down payment and has favorable terms.",
+      "original_question": "What is a VA loan?",
+      "original_answer": "A VA loan is a mortgage loan guaranteed by the U.S. Department of Veterans Affairs (VA) for eligible veterans, active-duty service members, and certain members of the National Guard and Reserves. It often requires no down payment and has favorable terms."
+    },
+    {
+      "question": "what is an fha loan?",
+      "answer": "an fha loan is a mortgage loan insured by the federal housing administration fha. it is designed for lowtomoderateincome borrowers and typically requires a lower down payment and credit score than conventional loans.",
+      "original_question": "What is an FHA loan?",
+      "original_answer": "An FHA loan is a mortgage loan insured by the Federal Housing Administration (FHA). It is designed for low-to-moderate-income borrowers and typically requires a lower down payment and credit score than conventional loans."
+    },
+    {
+      "question": "what is a usda loan?",
+      "answer": "a usda loan is a mortgage loan guaranteed by the u.s. department of agriculture usda for eligible rural and suburban homebuyers. it often requires no down payment and has favorable terms.",
+      "original_question": "What is a USDA loan?",
+      "original_answer": "A USDA loan is a mortgage loan guaranteed by the U.S. Department of Agriculture (USDA) for eligible rural and suburban homebuyers. It often requires no down payment and has favorable terms."
+    },
+    {
+      "question": "what is a home equity loan?",
+      "answer": "a home equity loan is a type of loan that allows homeowners to borrow against the equity in their home. it typically has a fixed interest rate and is repaid over a set term.",
+      "original_question": "What is a home equity loan?",
+      "original_answer": "A home equity loan is a type of loan that allows homeowners to borrow against the equity in their home. It typically has a fixed interest rate and is repaid over a set term."
+    },
+    {
+      "question": "what is a home equity line of credit heloc?",
+      "answer": "a home equity line of credit heloc is a revolving line of credit that allows homeowners to borrow against the equity in their home as needed. it typically has a variable interest rate and a draw period followed by a repayment period.",
+      "original_question": "What is a home equity line of credit (HELOC)?",
+      "original_answer": "A home equity line of credit (HELOC) is a revolving line of credit that allows homeowners to borrow against the equity in their home as needed. It typically has a variable interest rate and a draw period followed by a repayment period."
+    },
+    {
+      "question": "hi",
+      "answer": "hello how can i assist you with the us property market today?",
+      "original_question": "hi",
+      "original_answer": "Hello! How can I assist you with the US property market today?"
+    },
+    {
+      "question": "hello",
+      "answer": "hi there what would you like to know about the us property market?",
+      "original_question": "hello",
+      "original_answer": "Hi there! What would you like to know about the US property market?"
+    },
+    {
+      "question": "whats your name",
+      "answer": "im the us property market chatbot your real estate assistant. how can i help you today?",
+      "original_question": "what's your name",
+      "original_answer": "I'm the US property market Chatbot, your real estate assistant. How can I help you today?"
+    }
+  ]
+}
